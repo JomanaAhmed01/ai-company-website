@@ -1,10 +1,12 @@
-import './App.css';
+import React from 'react';
+import styled from "styled-components"
+import Navbar from '../components/HomePage/Navbar'
 
 function HomePageCompound() {
   return (
     <Wrapper>
       <HeaderWrapper>
-        
+        <Navbar />
       </HeaderWrapper>
     </Wrapper>
   );
@@ -16,10 +18,11 @@ export const Wrapper = styled.div`
 
 export const HeaderWrapper = styled.div`
   background-image: url('./img/bg.png');
-  width: 1349px;
-  height: 1081px;
-  object-fit: cover;
-  object-position: 50% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1350px;
+  height: 840px;
 `
 
 export default HomePageCompound;
