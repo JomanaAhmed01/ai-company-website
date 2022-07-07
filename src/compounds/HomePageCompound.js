@@ -21,7 +21,6 @@ export const HeaderWrapper = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1350px;
   height: 840px;
 `
 
