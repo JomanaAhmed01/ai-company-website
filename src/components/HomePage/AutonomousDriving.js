@@ -37,7 +37,6 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    border: 3px solid red;
   }
 `
 
