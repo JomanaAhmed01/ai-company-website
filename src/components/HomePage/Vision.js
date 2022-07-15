@@ -36,8 +36,9 @@ export const Wrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 1024px) {
-    display: block;
-    height: 950px;
+    flex-direction: column;
+    height: 1350px;
+    border: 3px solid red;
   }
 `
 
