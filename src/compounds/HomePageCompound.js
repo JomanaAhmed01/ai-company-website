@@ -4,6 +4,7 @@ import Navbar from '../components/HomePage/Navbar'
 import Header from '../components/HomePage/Header'
 import Vision from '../components/HomePage/Vision'
 import Services from '../components/HomePage/Services'
+import AutonomousDriving from '../components/HomePage/AutonomousDriving'
 
 function HomePageCompound() {
   return (
@@ -15,6 +16,7 @@ function HomePageCompound() {
       
       <Vision />
       <Services />
+      <AutonomousDriving />
     </Wrapper>
   );
 }
