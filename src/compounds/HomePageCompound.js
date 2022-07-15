@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Navbar from '../components/HomePage/Navbar'
 import Header from '../components/HomePage/Header'
 import Vision from '../components/HomePage/Vision'
+import Services from '../components/HomePage/Services'
 
 function HomePageCompound() {
   return (
@@ -13,6 +14,7 @@ function HomePageCompound() {
       </HeaderWrapper>
       
       <Vision />
+      <Services />
     </Wrapper>
   );
 }
