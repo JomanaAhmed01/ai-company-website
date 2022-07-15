@@ -29,6 +29,8 @@ function WhyAutono() {
 export const Wrapper = styled.div`
   background-image: url('./img/factory.png');
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 880px;
 `
 
