@@ -5,6 +5,7 @@ import Header from '../components/HomePage/Header'
 import Vision from '../components/HomePage/Vision'
 import Services from '../components/HomePage/Services'
 import AutonomousDriving from '../components/HomePage/AutonomousDriving'
+import RealTimeInfo from '../components/HomePage/RealTimeInfo'
 
 function HomePageCompound() {
   return (
@@ -17,6 +18,7 @@ function HomePageCompound() {
       <Vision />
       <Services />
       <AutonomousDriving />
+      <RealTimeInfo />
     </Wrapper>
   );
 }
