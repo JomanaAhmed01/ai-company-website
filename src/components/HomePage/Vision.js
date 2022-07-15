@@ -1,29 +1,29 @@
 import React from 'react';
 import styled from "styled-components"
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 
 function Vision() {
-    return (
-        <Wrapper>
-            <TextWrapper>
-                <HeaderText>VISION</HeaderText>
-                <Header>We’re Changing the Way the World Thinks About Cars</Header>
-                <Text>I'm a paragraph.
-                    Click here to add your own text and edit me.
-                    It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
-                </Text>
-            </TextWrapper>
+  return (
+    <Wrapper>
+      <TextWrapper>
+        <HeaderText>VISION</HeaderText>
+        <Header>We’re Changing the Way the World Thinks About Cars</Header>
+        <Text>I'm a paragraph.
+          Click here to add your own text and edit me.
+          It’s easy.
+          Just click “Edit Text” or double click me to add your own content and make changes to the font.
+          I’m a great place for you to tell a story and let your users know a little more about you.
+        </Text>
+      </TextWrapper>
 
-            <ImageWrapper>
-                <Image src='./img/car-1.png' />
-            </ImageWrapper>
-        </Wrapper>
-    );
+      <ImageWrapper>
+        <Image src='./img/car-1.png' />
+      </ImageWrapper>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
