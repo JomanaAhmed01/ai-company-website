@@ -7,6 +7,7 @@ import Services from '../components/HomePage/Services'
 import AutonomousDriving from '../components/HomePage/AutonomousDriving'
 import RealTimeInfo from '../components/HomePage/RealTimeInfo'
 import PercepEnabled from '../components/HomePage/PercepEnabled'
+import WhyAutono from '../components/HomePage/WhyAutono'
 
 function HomePageCompound() {
   return (
@@ -21,6 +22,7 @@ function HomePageCompound() {
       <AutonomousDriving />
       <RealTimeInfo />
       <PercepEnabled />
+      <WhyAutono />
     </Wrapper>
   );
 }
