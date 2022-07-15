@@ -6,6 +6,7 @@ import Vision from '../components/HomePage/Vision'
 import Services from '../components/HomePage/Services'
 import AutonomousDriving from '../components/HomePage/AutonomousDriving'
 import RealTimeInfo from '../components/HomePage/RealTimeInfo'
+import PercepEnabled from '../components/HomePage/PercepEnabled'
 
 function HomePageCompound() {
   return (
@@ -19,6 +20,7 @@ function HomePageCompound() {
       <Services />
       <AutonomousDriving />
       <RealTimeInfo />
+      <PercepEnabled />
     </Wrapper>
   );
 }
