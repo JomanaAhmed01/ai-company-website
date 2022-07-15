@@ -3,27 +3,27 @@ import styled from "styled-components"
 import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 
 function WhyAutono() {
-    return (
-        <Wrapper>
-            <TextWrapper>
-                <BorderWrapper>
-                    <HeaderText>WHY AUTONO</HeaderText>
-                    <Header>A different approach, using a new method of manufacturing.</Header>
-                    <Text>I'm a paragraph.
-                        Click here to add your own text and edit me.
-                        It’s easy.
-                        Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                        I’m a great place for you to tell a story and let your users know a little more about you.
-                    </Text>
+  return (
+    <Wrapper>
+      <TextWrapper>
+        <BorderWrapper>
+          <HeaderText>WHY AUTONO</HeaderText>
+          <Header>A different approach, using a new method of manufacturing.</Header>
+          <Text>I'm a paragraph.
+            Click here to add your own text and edit me.
+            It’s easy.
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            I’m a great place for you to tell a story and let your users know a little more about you.
+          </Text>
 
-                    <ButtonWrapper>
-                        <Button>Read More</Button>
-                        <Arrow />
-                    </ButtonWrapper>
-                </BorderWrapper>
-            </TextWrapper>
-        </Wrapper>
-    );
+          <ButtonWrapper>
+            <Button>Read More</Button>
+            <Arrow />
+          </ButtonWrapper>
+        </BorderWrapper>
+      </TextWrapper>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
