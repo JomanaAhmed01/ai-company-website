@@ -8,6 +8,7 @@ import AutonomousDriving from '../components/HomePage/AutonomousDriving'
 import RealTimeInfo from '../components/HomePage/RealTimeInfo'
 import PercepEnabled from '../components/HomePage/PercepEnabled'
 import WhyAutono from '../components/HomePage/WhyAutono'
+import AutonoInNums from '../components/HomePage/AutonoInNums'
 
 function HomePageCompound() {
   return (
@@ -23,6 +24,7 @@ function HomePageCompound() {
       <RealTimeInfo />
       <PercepEnabled />
       <WhyAutono />
+      <AutonoInNums />
     </Wrapper>
   );
 }
