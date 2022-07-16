@@ -32,13 +32,17 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 880px;
+
+  @media screen and (max-width: 520px) {
+    height: 1000px;
+  }
 `
 
 export const TextWrapper = styled.div`
   background-color: #000000;
   border-radius: 20px;
   position: relative;
-  top: 110px;
+  top: 70px;
   padding-left: 50px;
   padding-top: 100px;
   margin-left: 50px;
@@ -49,6 +53,7 @@ export const TextWrapper = styled.div`
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: 690px;
   }
 `
 
