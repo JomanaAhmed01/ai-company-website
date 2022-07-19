@@ -9,6 +9,7 @@ import RealTimeInfo from '../components/HomePage/RealTimeInfo'
 import PercepEnabled from '../components/HomePage/PercepEnabled'
 import WhyAutono from '../components/HomePage/WhyAutono'
 import AutonoInNums from '../components/HomePage/AutonoInNums'
+import Industry from '../components/HomePage/Industry'
 
 function HomePageCompound() {
   return (
@@ -25,6 +26,7 @@ function HomePageCompound() {
       <PercepEnabled />
       <WhyAutono />
       <AutonoInNums />
+      <Industry />
     </Wrapper>
   );
 }
