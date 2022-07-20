@@ -4,6 +4,7 @@ import Navbar from '../components/Technology/Navbar'
 import Header from '../components/Technology/Header'
 import HeaderText from '../components/Technology/HeaderText'
 import TheAutonoCar from '../components/Technology/TheAutonoCar'
+import TheAutonoCarText from '../components/Technology/TheAutonoCarText'
 
 function TechnologyPageCompound() {
   return (
@@ -15,6 +16,7 @@ function TechnologyPageCompound() {
 
       <HeaderText />
       <TheAutonoCar />
+      <TheAutonoCarText />
     </Wrapper>
   );
 }
