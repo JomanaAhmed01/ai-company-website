@@ -11,6 +11,7 @@ import WhyAutono from '../components/HomePage/WhyAutono'
 import AutonoInNums from '../components/HomePage/AutonoInNums'
 import Industry from '../components/HomePage/Industry'
 import Careers from '../components/HomePage/Careers'
+import Footer from '../components/HomePage/Footer'
 
 function HomePageCompound() {
   return (
@@ -29,6 +30,7 @@ function HomePageCompound() {
       <AutonoInNums />
       <Industry />
       <Careers />
+      <Footer />
     </Wrapper>
   );
 }
