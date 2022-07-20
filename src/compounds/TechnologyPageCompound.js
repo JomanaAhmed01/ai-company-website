@@ -17,11 +17,7 @@ export const Wrapper = styled.div`
 `
 
 export const HeaderWrapper = styled.div`
-  background-image: url('./img/bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 840px;
+  height: 1060px;
 `
 
 export default TechnologyPageCompound;
