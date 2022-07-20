@@ -1,5 +1,5 @@
 import './App.css';
-import HomePageCompound from './compounds/HomePageCompound'
+// import HomePageCompound from './compounds/HomePageCompound'
 import TechnologyPageCompound from './compounds/TechnologyPageCompound';
 
 function App() {
