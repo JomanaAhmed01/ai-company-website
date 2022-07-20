@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Navbar from '../components/Technology/Navbar'
 import Header from '../components/Technology/Header'
 import HeaderText from '../components/Technology/HeaderText'
+import TheAutonoCar from '../components/Technology/TheAutonoCar'
 
 function TechnologyPageCompound() {
   return (
@@ -13,6 +14,7 @@ function TechnologyPageCompound() {
       </HeaderWrapper>
 
       <HeaderText />
+      <TheAutonoCar />
     </Wrapper>
   );
 }
