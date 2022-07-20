@@ -37,7 +37,7 @@ export const Wrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  border: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column-reverse;
