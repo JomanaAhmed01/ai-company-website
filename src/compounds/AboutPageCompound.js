@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components"
 import Navbar from '../components/About/Navbar'
 import Header from '../components/About/Header'
+import OurMission from '../components/About/OurMission'
 
 function AboutPageCompound() {
   return (
@@ -10,6 +11,8 @@ function AboutPageCompound() {
         <Navbar />
         <Header />
       </HeaderWrapper>
+
+      <OurMission />
     </Wrapper>
   );
 }
@@ -19,15 +22,7 @@ export const Wrapper = styled.div`
 `
 
 export const HeaderWrapper = styled.div`
-  height: 1060px;
-
-  @media screen and (max-width: 650px) {
-    height: 850px;
-  }
-
-  @media screen and (max-width: 505px) {
-    height: 700px;
-  }
+  
 `
 
 export default AboutPageCompound;
