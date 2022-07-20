@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components"
 import Navbar from '../components/Technology/Navbar'
 import Header from '../components/Technology/Header'
+import HeaderText from '../components/Technology/HeaderText'
 
 function TechnologyPageCompound() {
   return (
@@ -10,6 +11,8 @@ function TechnologyPageCompound() {
         <Navbar />
         <Header />
       </HeaderWrapper>
+
+      <HeaderText />
     </Wrapper>
   );
 }
