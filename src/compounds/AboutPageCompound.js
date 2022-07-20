@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from "styled-components"
 import Navbar from '../components/About/Navbar'
+import Header from '../components/About/Header'
 
 function AboutPageCompound() {
   return (
     <Wrapper>
       <HeaderWrapper>
         <Navbar />
+        <Header />
       </HeaderWrapper>
     </Wrapper>
   );
