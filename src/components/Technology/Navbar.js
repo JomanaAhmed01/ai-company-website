@@ -2,25 +2,25 @@ import React from 'react';
 import styled from "styled-components"
 import { MenuAlt4 } from '@styled-icons/heroicons-outline/MenuAlt4'
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function Navbar() {
-    return (
-        <Wrapper>
-            <LogoWrapper>
-                <Logo>AUTONO</Logo>
-            </LogoWrapper>
+  return (
+    <Wrapper>
+      <LogoWrapper>
+        <Logo>AUTONO</Logo>
+      </LogoWrapper>
 
-            <BtnsWrapper>
-                <FirstLink>Technology</FirstLink>
-                <Link>About</Link>
-                <Link>Careers</Link>
-                <Button>Subscribe</Button>
-                <MenuIcon />
-            </BtnsWrapper>
-        </Wrapper>
-    );
+      <BtnsWrapper>
+        <FirstLink>Technology</FirstLink>
+        <Link>About</Link>
+        <Link>Careers</Link>
+        <Button>Subscribe</Button>
+        <MenuIcon />
+      </BtnsWrapper>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
