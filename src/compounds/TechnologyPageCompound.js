@@ -6,6 +6,7 @@ import HeaderText from '../components/Technology/HeaderText'
 import TheAutonoCar from '../components/Technology/TheAutonoCar'
 import TheAutonoCarText from '../components/Technology/TheAutonoCarText'
 import TheAutonoDigitalProducts from '../components/Technology/TheAutonoDigitalProducts'
+import TheAutonoDigitalText from '../components/Technology/TheAutonoDigitalText'
 
 function TechnologyPageCompound() {
   return (
@@ -19,6 +20,7 @@ function TechnologyPageCompound() {
       <TheAutonoCar />
       <TheAutonoCarText />
       <TheAutonoDigitalProducts />
+      <TheAutonoDigitalText />
     </Wrapper>
   );
 }
