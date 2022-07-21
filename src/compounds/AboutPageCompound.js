@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Navbar from '../components/About/Navbar'
 import Header from '../components/About/Header'
 import OurMission from '../components/About/OurMission'
+import OurJourney from '../components/About/OurJourney'
 
 function AboutPageCompound() {
   return (
@@ -13,6 +14,7 @@ function AboutPageCompound() {
       </HeaderWrapper>
 
       <OurMission />
+      <OurJourney />
     </Wrapper>
   );
 }
