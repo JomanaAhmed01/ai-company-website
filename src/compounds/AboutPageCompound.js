@@ -6,6 +6,7 @@ import OurMission from '../components/About/OurMission'
 import OurJourney from '../components/About/OurJourney'
 import FoundersBg from '../components/About/FoundersBg'
 import News from '../components/About/News'
+import Footer from '../components/About/Footer'
 
 function AboutPageCompound() {
   return (
@@ -19,6 +20,7 @@ function AboutPageCompound() {
       <OurJourney />
       <FoundersBg />
       <News />
+      <Footer />
     </Wrapper>
   );
 }
