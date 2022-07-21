@@ -1,23 +1,23 @@
 import React from 'react';
 import styled from "styled-components"
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 
 function TheAutonoDigitalProducts() {
-    return (
-        <Wrapper>
-            <TextWrapper>
-                <HeaderText>THE AUTONO DIGITAL PRODUCTS</HeaderText>
-                <Header>We’ve developed an app so that each vehicle can drive autonomously and make decisions based on real-time information and situational awareness.</Header>
-            </TextWrapper>
+  return (
+    <Wrapper>
+      <TextWrapper>
+        <HeaderText>THE AUTONO DIGITAL PRODUCTS</HeaderText>
+        <Header>We’ve developed an app so that each vehicle can drive autonomously and make decisions based on real-time information and situational awareness.</Header>
+      </TextWrapper>
 
-            <ImageWrapper>
-                <Image src='./img/ipad.png' />
-            </ImageWrapper>
-        </Wrapper>
-    );
+      <ImageWrapper>
+        <Image src='./img/ipad.png' />
+      </ImageWrapper>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
