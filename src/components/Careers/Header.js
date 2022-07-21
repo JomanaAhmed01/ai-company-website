@@ -29,11 +29,15 @@ export const TheHeader = styled.p`
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  border: 3px solid red;
 
   @media screen and (max-width: 768px) {
     width: 90%;
     font-size: 45px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    font-size: 35px;
   }
 `
 
