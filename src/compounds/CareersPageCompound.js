@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Navbar from '../components/Careers/Navbar'
 import Header from '../components/Careers/Header'
 import Location from '../components/Careers/Location'
+import JobOpenings from '../components/Careers/JobOpenings'
 
 function CareersPageCompound() {
   return (
@@ -13,6 +14,7 @@ function CareersPageCompound() {
       </HeaderWrapper>
 
       <Location />
+      <JobOpenings />
     </Wrapper>
   );
 }
