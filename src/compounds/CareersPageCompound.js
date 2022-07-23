@@ -5,6 +5,7 @@ import Header from '../components/Careers/Header'
 import Location from '../components/Careers/Location'
 import JobOpenings from '../components/Careers/JobOpenings'
 import Cards from '../components/Careers/Cards'
+import Footer from '../components/Careers/Footer'
 
 function CareersPageCompound() {
   return (
@@ -17,6 +18,7 @@ function CareersPageCompound() {
       <Location />
       <JobOpenings />
       <Cards />
+      <Footer />
     </Wrapper>
   );
 }
