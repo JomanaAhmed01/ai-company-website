@@ -1,14 +1,16 @@
 import './App.css';
 // import HomePageCompound from './compounds/HomePageCompound'
 // import TechnologyPageCompound from './compounds/TechnologyPageCompound'
-import AboutPageCompound from './compounds/AboutPageCompound';
+// import AboutPageCompound from './compounds/AboutPageCompound'
+import CareersPageCompound from './compounds/CareersPageCompound'
 
 function App() {
   return (
     <div className="App">
       {/* <HomePageCompound /> */}
       {/* <TechnologyPageCompound /> */}
-      <AboutPageCompound />
+      {/* <AboutPageCompound /> */}
+      <CareersPageCompound />
     </div>
   );
 }

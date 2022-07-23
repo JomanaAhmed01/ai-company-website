@@ -1,26 +1,26 @@
 import React from 'react';
 import styled from "styled-components"
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 
 function TheAutonoCar() {
-    return (
-        <Wrapper>
-            <TextWrapper>
-                <HeaderText>THE AUTONO CAR</HeaderText>
-                <Header>Using groundbreaking perception-enabled sensor technology,
-                    the Autono car is a fully driverless vehicle engineered to the highest degree of precision and safety.
-                    It’s autonomous driving reimagined.
-                </Header>
-            </TextWrapper>
+  return (
+    <Wrapper>
+      <TextWrapper>
+        <HeaderText>THE AUTONO CAR</HeaderText>
+        <Header>Using groundbreaking perception-enabled sensor technology,
+          the Autono car is a fully driverless vehicle engineered to the highest degree of precision and safety.
+          It’s autonomous driving reimagined.
+        </Header>
+      </TextWrapper>
 
-            <ImageWrapper>
-                <Image src='./img/car-5.png' />
-            </ImageWrapper>
-        </Wrapper>
-    );
+      <ImageWrapper>
+        <Image src='./img/car-5.png' />
+      </ImageWrapper>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`

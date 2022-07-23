@@ -2,41 +2,41 @@ import React from 'react';
 import styled from "styled-components"
 import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 
 function Careers() {
-    return (
-        <Wrapper>
-            <TextWrapper>
-                <HeaderText>CAREERS</HeaderText>
-                <Header>We’re looking for innovative talent to join our team. See all positions and submit your CV.</Header>
-                <ButtonWrapper>
-                    <Button>Openings</Button>
-                    <Arrow />
-                </ButtonWrapper>
-            </TextWrapper>
+  return (
+    <Wrapper>
+      <TextWrapper>
+        <HeaderText>CAREERS</HeaderText>
+        <Header>We’re looking for innovative talent to join our team. See all positions and submit your CV.</Header>
+        <ButtonWrapper>
+          <Button>Openings</Button>
+          <Arrow />
+        </ButtonWrapper>
+      </TextWrapper>
 
-            <TextWrapperSecond>
-                <BorderWrapper>
-                    <HeaderSecond>ARTIFICIAL INTELLIGENCE RESEARCHER</HeaderSecond>
-                    <HeaderTextSecond>San Francisco, CA</HeaderTextSecond>
-                    <TextSecond>I'm a paragraph.
-                        Click here to add your own text and edit me.
-                        It’s easy.
-                        Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                        I’m a great place for you to tell a story and let your users know a little more about you.
-                    </TextSecond>
+      <TextWrapperSecond>
+        <BorderWrapper>
+          <HeaderSecond>ARTIFICIAL INTELLIGENCE RESEARCHER</HeaderSecond>
+          <HeaderTextSecond>San Francisco, CA</HeaderTextSecond>
+          <TextSecond>I'm a paragraph.
+            Click here to add your own text and edit me.
+            It’s easy.
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            I’m a great place for you to tell a story and let your users know a little more about you.
+          </TextSecond>
 
-                    <ButtonWrapper>
-                        <Button>Read More</Button>
-                        <Arrow />
-                    </ButtonWrapper>
-                </BorderWrapper>
-            </TextWrapperSecond>
-        </Wrapper>
-    );
+          <ButtonWrapper>
+            <Button>Read More</Button>
+            <Arrow />
+          </ButtonWrapper>
+        </BorderWrapper>
+      </TextWrapperSecond>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
