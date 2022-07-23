@@ -1,47 +1,47 @@
 import React from 'react';
 import styled from "styled-components"
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function Footer() {
-    return (
-        <Wrapper>
-            <FirstColumn>
-                <LogoWrapper>
-                    <Logo>AUTONO</Logo>
-                </LogoWrapper>
+  return (
+    <Wrapper>
+      <FirstColumn>
+        <LogoWrapper>
+          <Logo>AUTONO</Logo>
+        </LogoWrapper>
 
-                <FirstRow>
-                    <Tech>Technology</Tech>
-                    <PhoneNum>Tel: 123-456-7890</PhoneNum>
-                </FirstRow>
+        <FirstRow>
+          <Tech>Technology</Tech>
+          <PhoneNum>Tel: 123-456-7890</PhoneNum>
+        </FirstRow>
 
-                <SecondRow>
-                    <About>About</About>
-                    <EmailAddress>Email: info@mysite.com</EmailAddress>
-                </SecondRow>
+        <SecondRow>
+          <About>About</About>
+          <EmailAddress>Email: info@mysite.com</EmailAddress>
+        </SecondRow>
 
-                <ThirdRow>
-                    <Careers>Careers</Careers>
-                    <Address>500 Terry Francois St San Francisco, CA 94158</Address>
-                </ThirdRow>
-            </FirstColumn>
+        <ThirdRow>
+          <Careers>Careers</Careers>
+          <Address>500 Terry Francois St San Francisco, CA 94158</Address>
+        </ThirdRow>
+      </FirstColumn>
 
-            <SecondColumn>
-                <Header>SUBSCRIBE</Header>
-                <Text>Sign up to receive Autono news and updates.</Text>
+      <SecondColumn>
+        <Header>SUBSCRIBE</Header>
+        <Text>Sign up to receive Autono news and updates.</Text>
 
-                <EmailWrapper>
-                    <Label>Email*</Label>
-                    <EmailInputWrapper>
-                        <Email></Email>
-                        <Button>Subscribe</Button>
-                    </EmailInputWrapper>
-                </EmailWrapper>
-            </SecondColumn>
-        </Wrapper>
-    );
+        <EmailWrapper>
+          <Label>Email*</Label>
+          <EmailInputWrapper>
+            <Email></Email>
+            <Button>Subscribe</Button>
+          </EmailInputWrapper>
+        </EmailWrapper>
+      </SecondColumn>
+    </Wrapper>
+  );
 }
 
 export const Wrapper = styled.div`
