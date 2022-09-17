@@ -106,6 +106,7 @@ export const ButtonWrapper = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 50px;
+  cursor: pointer;
 `
 
 export const Button = styled.p`
