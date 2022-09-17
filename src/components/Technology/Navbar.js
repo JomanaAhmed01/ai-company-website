@@ -50,7 +50,7 @@ export const Wrapper = styled.div`
 `
 
 export const LogoWrapper = styled.div`
-  
+  cursor: pointer;
 `
 
 export const Logo = styled.p`
