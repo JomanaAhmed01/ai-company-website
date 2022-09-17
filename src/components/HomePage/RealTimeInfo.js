@@ -6,6 +6,9 @@ import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 </style>
 
 function RealTimeInfo() {
+
+  const history = useHistory()
+
   return (
     <Wrapper>
       <ImageWrapper>
@@ -20,7 +23,7 @@ function RealTimeInfo() {
           Just click “Edit Text” or double click me to add your own content and make changes to the font.
           I’m a great place for you to tell a story and let your users know a little more about you.
         </Text>
-        <ButtonWrapper>
+        <ButtonWrapper onClick={() => history.push('/TechnologyPageCompound')}>
           <Button>Read More</Button>
           <Arrow />
         </ButtonWrapper>
@@ -86,6 +89,7 @@ export const ButtonWrapper = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 50px;
+  cursor: pointer;
 
   @media screen and (max-width: 1024px) {
     margin-left: auto;
