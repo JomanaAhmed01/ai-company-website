@@ -1,22 +1,26 @@
 import React from 'react';
 import styled from "styled-components"
+import { useHistory } from 'react-router-dom'
 import { MenuAlt4 } from '@styled-icons/heroicons-outline/MenuAlt4'
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function Navbar() {
+
+  const history = useHistory()
+  
   return (
     <Wrapper>
-      <LogoWrapper>
+      <LogoWrapper onClick={() => history.push('/')}>
         <Logo>AUTONO</Logo>
       </LogoWrapper>
 
       <BtnsWrapper>
-        <Link>Technology</Link>
-        <Link>About</Link>
-        <ThirdLink>Careers</ThirdLink>
-        <Button>Subscribe</Button>
+        <Link onClick={() => history.push('/TechnologyPageCompound')}>Technology</Link>
+        <Link onClick={() => history.push('/AboutPageCompound')}>About</Link>
+        <FirstLink onClick={() => history.push('/CareersPageCompound')}>Careers</FirstLink>
+        <Button onClick={() => history.push('/SubscribePageCompound')}>Subscribe</Button>
         <MenuIcon />
       </BtnsWrapper>
     </Wrapper>
@@ -46,7 +50,7 @@ export const Wrapper = styled.div`
 `
 
 export const LogoWrapper = styled.div`
-  
+  cursor: pointer;
 `
 
 export const Logo = styled.p`
@@ -81,8 +85,7 @@ export const BtnsWrapper = styled.div`
   }
 `
 
-export const ThirdLink = styled.p`
-  color: #707070;
+export const Link = styled.p`
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
   transition: 0.3s ease-in-out;
@@ -97,15 +100,12 @@ export const ThirdLink = styled.p`
   }
 `
 
-export const Link = styled.p`
+export const FirstLink = styled.p`
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
-
-  :hover {
-    color: #C45308;
-  }
+  color: #C45308;
 
   @media screen and (max-width: 768px) {
     display: none;
