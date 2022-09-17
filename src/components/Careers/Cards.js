@@ -1,12 +1,15 @@
 import React from 'react';
 import styled from "styled-components"
+import { useHistory } from 'react-router-dom'
 import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
-
 function Cards() {
+
+  const history = useHistory()
+
   return (
     <Wrapper>
       <AllCardsWrapper>
@@ -21,7 +24,7 @@ function Cards() {
               I’m a great place for you to tell a story and let your users know a little more about you.
             </TextSecond>
 
-            <ButtonWrapper>
+            <ButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
               <Button>Apply Now</Button>
               <Arrow />
             </ButtonWrapper>
@@ -39,7 +42,7 @@ function Cards() {
               I’m a great place for you to tell a story and let your users know a little more about you.
             </TextSecond>
 
-            <ButtonWrapper>
+            <ButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
               <Button>Apply Now</Button>
               <Arrow />
             </ButtonWrapper>
@@ -57,7 +60,7 @@ function Cards() {
               I’m a great place for you to tell a story and let your users know a little more about you.
             </TextSecond>
 
-            <ButtonWrapper>
+            <ButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
               <Button>Apply Now</Button>
               <Arrow />
             </ButtonWrapper>
@@ -75,7 +78,7 @@ function Cards() {
               I’m a great place for you to tell a story and let your users know a little more about you.
             </TextSecond>
 
-            <ButtonWrapper>
+            <ButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
               <Button>Apply Now</Button>
               <Arrow />
             </ButtonWrapper>
@@ -86,7 +89,7 @@ function Cards() {
           <BorderWrapper>
             <CvHeader>Didn't find the position you're looking for? Send us your CV</CvHeader>
 
-            <CvButtonWrapper>
+            <CvButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
               <CvButton>Submit</CvButton>
               <CvArrow />
             </CvButtonWrapper>
@@ -130,6 +133,7 @@ export const ButtonWrapper = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 50px;
+  cursor: pointer;
 `
 
 export const Button = styled.p`
@@ -254,6 +258,7 @@ export const CvButtonWrapper = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 50px;
+  cursor: pointer;
 `
 
 export const CvButton = styled.p`
