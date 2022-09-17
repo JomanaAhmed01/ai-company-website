@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from "styled-components"
+import { useHistory } from 'react-router-dom'
 import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 
 function WhyAutono() {
+
+  const history = useHistory()
+
   return (
     <Wrapper>
       <TextWrapper>
@@ -16,7 +20,7 @@ function WhyAutono() {
             I’m a great place for you to tell a story and let your users know a little more about you.
           </Text>
 
-          <ButtonWrapper>
+          <ButtonWrapper onClick={() => history.push('/AboutPageCompound')}>
             <Button>Read More</Button>
             <Arrow />
           </ButtonWrapper>
