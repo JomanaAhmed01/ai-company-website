@@ -1,11 +1,15 @@
 import React from 'react';
 import styled from "styled-components"
+import { useHistory } from 'react-router-dom'
 import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function AutonomousDriving() {
+
+  const history = useHistory()
+
   return (
     <Wrapper>
       <TextWrapper>
@@ -16,7 +20,7 @@ function AutonomousDriving() {
           Just click “Edit Text” or double click me to add your own content and make changes to the font.
           I’m a great place for you to tell a story and let your users know a little more about you.
         </Text>
-        <ButtonWrapper>
+        <ButtonWrapper onClick={() => history.push('/TechnologyPageCompound')}>
           <Button>Read More</Button>
           <Arrow />
         </ButtonWrapper>
@@ -84,6 +88,7 @@ export const ButtonWrapper = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 50px;
+  cursor: pointer;
 
   @media screen and (max-width: 1024px) {
     margin-left: auto;
