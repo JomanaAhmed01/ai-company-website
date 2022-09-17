@@ -8,29 +8,29 @@ import SubscribePageCompound from './compounds/SubscribePageCompound'
 
 function App() {
   return (
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <HomePageCompound />
-          </Route>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <HomePageCompound />
+        </Route>
 
-          <Route path="/TechnologyPageCompound">
-            <TechnologyPageCompound />
-          </Route>
+        <Route path="/TechnologyPageCompound">
+          <TechnologyPageCompound />
+        </Route>
 
-          <Route path="/AboutPageCompound">
-            <AboutPageCompound />
-          </Route>
+        <Route path="/AboutPageCompound">
+          <AboutPageCompound />
+        </Route>
 
-          <Route path="/CareersPageCompound">
-            <CareersPageCompound />
-          </Route>
+        <Route path="/CareersPageCompound">
+          <CareersPageCompound />
+        </Route>
 
-          <Route path="/SubscribePageCompound">
-            <SubscribePageCompound />
-          </Route>
-        </Switch>
-      </Router>
+        <Route path="/SubscribePageCompound">
+          <SubscribePageCompound />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
