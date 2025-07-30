@@ -55,11 +55,7 @@ export const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 590px) {
-    margin-top: 400px;
-  }
-
-  @media screen and (max-width: 490px) {
-    margin-top: 200px;
+    margin-top: 50px;
   }
 `
 
