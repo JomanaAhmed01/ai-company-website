@@ -38,6 +38,10 @@ function HomePageCompound() {
 export const Wrapper = styled.div`
   /*overflow-x: hidden;*/
   overflow-y: hidden;
+
+  @media screen and (max-width: 1024px) {
+    overflow-x: hidden;
+  }
 `
 
 export const HeaderWrapper = styled.div`
