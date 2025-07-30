@@ -50,7 +50,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 100px;
 
   @media screen and (max-width: 930px) {
     flex-direction: column;
