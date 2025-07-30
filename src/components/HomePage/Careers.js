@@ -45,7 +45,7 @@ function Careers() {
 export const Wrapper = styled.div`
   background-color: #000000;
   height: 740px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
