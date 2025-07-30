@@ -48,7 +48,7 @@ export const TextWrapper = styled.div`
   height: 420px;
 
   @media screen and (max-width: 1024px) {
-    margin-top: 150px;
+    margin-top: 50px;
     height: 350px;
   }
 
@@ -105,7 +105,7 @@ export const Text = styled.p`
 `
 
 export const ImageWrapper = styled.div`
-  
+  margin-top: -100px;
 `
 
 export const Image = styled.img`
