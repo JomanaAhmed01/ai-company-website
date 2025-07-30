@@ -46,14 +46,13 @@ export const Wrapper = styled.div`
   background-image: url('./img/machine.png');
   background-repeat: no-repeat;
   margin-top: 100px;
-  height: 760px;
+  height: 790px;
   display: flex;
   justify-content: flex-end;
 
   @media screen and (max-width: 1100px) {
     background-image: none;
     flex-direction: column;
-    margin-top: 600px;
   }
 
   @media screen and (max-width: 590px) {
