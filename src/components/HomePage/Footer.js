@@ -59,7 +59,6 @@ export const Wrapper = styled.div`
 export const FirstColumn = styled.div`
   display: flex;
   flex-direction: column;
-  /*justify-content: space-around;*/
   flex-wrap: nowrap;
 
   @media screen and (max-width: 490px) {
