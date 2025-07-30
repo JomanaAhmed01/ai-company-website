@@ -35,7 +35,7 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 880px;
+  height: 900px;
 
   @media screen and (max-width: 520px) {
     height: 1000px;
