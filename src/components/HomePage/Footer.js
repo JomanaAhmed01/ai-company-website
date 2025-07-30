@@ -57,6 +57,11 @@ export const Wrapper = styled.div`
 `
 
 export const FirstColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  flex-wrap: nowrap;
+
   @media screen and (max-width: 490px) {
     width: 90%;
     margin-left: auto;
@@ -97,7 +102,6 @@ export const FirstRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
@@ -125,7 +129,6 @@ export const SecondRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
@@ -142,6 +145,7 @@ export const EmailAddress = styled.p`
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.04em;
+  margin-left: 12px;
 `
 
 export const ThirdRow = styled.div`
@@ -153,7 +157,6 @@ export const ThirdRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
@@ -162,6 +165,7 @@ export const Careers = styled.p`
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.04em;
+  margin-right: 23px;
 `
 
 export const Address = styled.p`
@@ -171,6 +175,7 @@ export const Address = styled.p`
   letter-spacing: 0.04em;
   line-height: 30px;
   width: 200px;
+  margin-right: -11px;
 `
 
 export const SecondColumn = styled.div`
