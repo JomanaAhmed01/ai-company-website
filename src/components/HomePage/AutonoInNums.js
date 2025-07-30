@@ -45,7 +45,6 @@ function AutonoInNums() {
 export const Wrapper = styled.div`
   background-image: url('./img/machine.png');
   background-repeat: no-repeat;
-  margin-top: 100px;
   height: 790px;
   display: flex;
   justify-content: flex-end;
