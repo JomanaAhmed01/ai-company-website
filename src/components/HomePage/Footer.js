@@ -220,7 +220,7 @@ export const Email = styled.input`
   height: 40px;
   border-radius: 10px;
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 16px;  
   font-family: 'Montserrat', sans-serif;
 
   @media screen and (max-width: 490px) {

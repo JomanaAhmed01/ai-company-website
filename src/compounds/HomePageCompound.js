@@ -36,7 +36,7 @@ function HomePageCompound() {
 }
 
 export const Wrapper = styled.div`
-  
+  overflow-x: hidden;
 `
 
 export const HeaderWrapper = styled.div`
