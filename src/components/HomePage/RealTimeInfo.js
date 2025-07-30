@@ -42,6 +42,8 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     margin-top: 0px;
+    margin-bottom: 200px;
+    
   }
 `
 
