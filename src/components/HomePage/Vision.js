@@ -104,9 +104,7 @@ export const Text = styled.p`
   }
 `
 
-export const ImageWrapper = styled.div`
-   
-`
+export const ImageWrapper = styled.div``
 
 export const Image = styled.img`
   width: 100%;
