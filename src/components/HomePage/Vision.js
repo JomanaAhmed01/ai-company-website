@@ -37,7 +37,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    height: 1350px;
+    height: 750px;
   }
 `
 
@@ -104,7 +104,9 @@ export const Text = styled.p`
   }
 `
 
-export const ImageWrapper = styled.div``
+export const ImageWrapper = styled.div`
+   
+`
 
 export const Image = styled.img`
   width: 100%;
