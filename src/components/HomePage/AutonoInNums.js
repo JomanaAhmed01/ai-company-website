@@ -67,7 +67,7 @@ export const Wrapper = styled.div`
 
 export const TextWrapper = styled.div`
   float: right;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 50px;
 
   @media screen and (max-width: 1100px) {
