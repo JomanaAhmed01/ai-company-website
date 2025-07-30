@@ -13,7 +13,7 @@ function Services() {
 }
 
 export const Wrapper = styled.div`
-  margin-top: 150px;
+  margin-top: 120px;
   padding-left: 50px;
 
   @media screen and (max-width: 510px) {
