@@ -105,7 +105,7 @@ export const Text = styled.p`
 `
 
 export const ImageWrapper = styled.div`
-  margin-top: -100px;
+  
 `
 
 export const Image = styled.img`
