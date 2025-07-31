@@ -65,9 +65,7 @@ export const TextOne = styled.p`
   width: 335px;
 `
 
-export const TextTwoWrapper = styled.div`
-  margin-top: -170px;
-`
+export const TextTwoWrapper = styled.div``
 
 export const HeaderTwo = styled.p`
   color: #000000;
