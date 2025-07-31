@@ -33,8 +33,7 @@ function TheAutonoCarText() {
 
 export const Wrapper = styled.div`
   background-color: #000000;
-  height: 440px;
-  margin-top: -70px;
+  height: 340px;
   display: flex;
   justify-content: space-around;
 
