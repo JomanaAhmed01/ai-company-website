@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react"
 import styled from "styled-components"
-import Navbar from '../components/Technology/Navbar'
-import Header from '../components/Technology/Header'
-import HeaderText from '../components/Technology/HeaderText'
-import TheAutonoCar from '../components/Technology/TheAutonoCar'
-import TheAutonoCarText from '../components/Technology/TheAutonoCarText'
-import TheAutonoDigitalProducts from '../components/Technology/TheAutonoDigitalProducts'
-import TheAutonoDigitalText from '../components/Technology/TheAutonoDigitalText'
-import Footer from '../components/Technology/Footer'
+import Navbar from "../components/Technology/Navbar"
+import Header from "../components/Technology/Header"
+import HeaderText from "../components/Technology/HeaderText"
+import TheAutonoCar from "../components/Technology/TheAutonoCar"
+import TheAutonoCarText from "../components/Technology/TheAutonoCarText"
+import TheAutonoDigitalProducts from "../components/Technology/TheAutonoDigitalProducts"
+import TheAutonoDigitalText from "../components/Technology/TheAutonoDigitalText"
+import Footer from "../components/Technology/Footer"
 
 function TechnologyPageCompound() {
   return (
@@ -24,15 +24,13 @@ function TechnologyPageCompound() {
       <TheAutonoDigitalText />
       <Footer />
     </Wrapper>
-  );
+  )
 }
 
-export const Wrapper = styled.div`
-  
-`
+export const Wrapper = styled.div``
 
 export const HeaderWrapper = styled.div`
-  background-image: url('./img/car-4.png');
+  background-image: url("./img/car-4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -47,4 +45,4 @@ export const HeaderWrapper = styled.div`
   }
 `
 
-export default TechnologyPageCompound;
+export default TechnologyPageCompound
