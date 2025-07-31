@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react"
 import styled from "styled-components"
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
+;<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function Footer() {
@@ -41,7 +42,7 @@ function Footer() {
         </EmailWrapper>
       </SecondColumn>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
@@ -78,9 +79,9 @@ export const LogoWrapper = styled.div`
 export const Logo = styled.p`
   color: #000000;
   font-size: 20px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: bold;
-  letter-spacing: 0.30em;
+  letter-spacing: 0.3em;
 
   @media screen and (max-width: 490px) {
     font-size: 18px;
@@ -97,21 +98,20 @@ export const FirstRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
 export const Tech = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
 `
 
 export const PhoneNum = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   margin-right: 50px;
 `
@@ -125,14 +125,13 @@ export const SecondRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
 export const About = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   margin-right: 20px;
 `
@@ -140,7 +139,7 @@ export const About = styled.p`
 export const EmailAddress = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
 `
 
@@ -153,21 +152,20 @@ export const ThirdRow = styled.div`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 `
 
 export const Careers = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
 `
 
 export const Address = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   line-height: 30px;
   width: 200px;
@@ -184,7 +182,7 @@ export const SecondColumn = styled.div`
 export const Header = styled.p`
   color: #000000;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   margin-bottom: 50px;
 `
@@ -192,19 +190,17 @@ export const Header = styled.p`
 export const Text = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   margin-bottom: 50px;
 `
 
-export const EmailWrapper = styled.div`
-  
-`
+export const EmailWrapper = styled.div``
 
 export const Label = styled.p`
   color: #000000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
 `
 
@@ -221,7 +217,7 @@ export const Email = styled.input`
   border-radius: 10px;
   padding-left: 20px;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   @media screen and (max-width: 490px) {
     width: 85%;
@@ -233,9 +229,9 @@ export const Email = styled.input`
 export const Button = styled.p`
   background-color: #000000;
   border: 1px solid #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 12.5px;
@@ -247,10 +243,10 @@ export const Button = styled.p`
   transition: 0.3s ease-in-out;
 
   :hover {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
     cursor: pointer;
   }
 `
 
-export default Footer;
+export default Footer
