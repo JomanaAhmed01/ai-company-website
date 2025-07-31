@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
   border: 1px solid transparent;
   height: 850px;
   width: 100%;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,6 +37,10 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     height: 1350px;
+  }
+
+  @media screen and (max-width: 580px) {
+    height: 1050px;
   }
 `
 
