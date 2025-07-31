@@ -29,7 +29,6 @@ export const Wrapper = styled.div`
   border: 1px solid transparent;
   height: 850px;
   width: 100%;
-  /* padding-bottom: 200px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
