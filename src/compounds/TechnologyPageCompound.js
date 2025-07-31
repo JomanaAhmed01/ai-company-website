@@ -27,7 +27,9 @@ function TechnologyPageCompound() {
   )
 }
 
-export const Wrapper = styled.div``
+export const Wrapper = styled.div`
+  overflow-x: hidden;
+`
 
 export const HeaderWrapper = styled.div`
   background-image: url("./img/car-4.png");
