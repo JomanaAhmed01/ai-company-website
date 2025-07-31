@@ -221,7 +221,9 @@ export const Email = styled.input`
   border: 1px solid #000000;
   width: 264px;
   height: 40px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
   padding-left: 20px;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -241,9 +243,11 @@ export const Button = styled.p`
   font-family: "Montserrat", sans-serif;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 12.5px;
+  padding-top: 11.5px;
   padding-bottom: 12.5px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
   position: relative;
   right: 20px;
   text-align: center;
@@ -253,6 +257,11 @@ export const Button = styled.p`
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 430px) {
+    padding-top: 15px;
+    padding-bottom: 12.5px;
   }
 `
 
