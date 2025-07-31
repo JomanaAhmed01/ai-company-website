@@ -58,6 +58,10 @@ export const Wrapper = styled.div`
 `
 
 export const FirstColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
   @media screen and (max-width: 490px) {
     width: 90%;
     margin-left: auto;
@@ -141,6 +145,7 @@ export const EmailAddress = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
+  margin-left: 12px;
 `
 
 export const ThirdRow = styled.div`
@@ -160,6 +165,7 @@ export const Careers = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
+  margin-right: 23px;
 `
 
 export const Address = styled.p`
@@ -169,6 +175,7 @@ export const Address = styled.p`
   letter-spacing: 0.04em;
   line-height: 30px;
   width: 200px;
+  margin-right: -11px;
 `
 
 export const SecondColumn = styled.div`
@@ -214,7 +221,9 @@ export const Email = styled.input`
   border: 1px solid #000000;
   width: 264px;
   height: 40px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
   padding-left: 20px;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -232,20 +241,35 @@ export const Button = styled.p`
   color: #ffffff;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  padding-left: 25px;
+  display: flex;
+  align-items: center;   /* Vertical center */
+  justify-content: center; /* Horizontal center */
+  padding: 13px 20px;
+  font-size: 16px;
+  line-height: 1;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  /* padding-left: 25px;
   padding-right: 25px;
-  padding-top: 12.5px;
+  padding-top: 11.5px;
   padding-bottom: 12.5px;
   border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
   position: relative;
   right: 20px;
-  text-align: center;
+  text-align: center; */
   transition: 0.3s ease-in-out;
 
   :hover {
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 430px) {
+    padding: 16.5px 20px;
+    margin-left: -5px;
   }
 `
 
