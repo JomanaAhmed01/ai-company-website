@@ -94,27 +94,31 @@ export const TechnologyOption = styled.p`
   font-size: 20px;
   border: 1px solid #ffffff;
   color: #000000;
+  -webkit-tap-highlight-color: transparent;
 `
 
 export const AboutOption = styled.p`
-  font-size: 20px;
-  border: 1px solid #ffffff;
-  color: #000000;
-`
-
-export const CareersOption = styled.p`
-  font-size: 20px;
-  border: 1px solid #ffffff;
-  color: #000000;
-`
-
-export const SubscribeOption = styled.p`
   font-size: 20px;
   border: 1px solid #ffffff;
   color: #ffffff;
   background-color: #000000;
   padding: 10px 20px;
   border-radius: 7px;
+  -webkit-tap-highlight-color: transparent;
+`
+
+export const CareersOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #000000;
+  -webkit-tap-highlight-color: transparent;
+`
+
+export const SubscribeOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #000000;
+  -webkit-tap-highlight-color: transparent;
 `
 
 const CloseButton = styled.div`
