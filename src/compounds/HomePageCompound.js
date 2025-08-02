@@ -112,11 +112,6 @@ export const ItemsWrapper = styled.p`
   height: 400px;
   background-color: #ffffff;
   width: 250px;
-  /* display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto; */
   display: flex;
   flex-direction: column;
   align-items: center;
