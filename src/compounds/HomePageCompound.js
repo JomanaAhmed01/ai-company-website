@@ -34,14 +34,10 @@ function HomePageCompound() {
             >
               Technology
             </TechnologyOption>
-            <AboutOption
-              onClick={() => history.push("/AboutPageCompound")}
-            >
+            <AboutOption onClick={() => history.push("/AboutPageCompound")}>
               About
             </AboutOption>
-            <CareersOption
-              onClick={() => history.push("/CareersPageCompound")}
-            >
+            <CareersOption onClick={() => history.push("/CareersPageCompound")}>
               Careers
             </CareersOption>
             <SubscribeOption
@@ -122,7 +118,10 @@ export const ItemsWrapper = styled.p`
 export const TechnologyOption = styled.p`
   font-size: 20px;
   border: 1px solid #ffffff;
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border-radius: 7px;
   -webkit-tap-highlight-color: transparent;
 `
 
@@ -143,10 +142,7 @@ export const CareersOption = styled.p`
 export const SubscribeOption = styled.p`
   font-size: 20px;
   border: 1px solid #ffffff;
-  color: #ffffff;
-  background-color: #000000;
-  padding: 10px 20px;
-  border-radius: 7px;
+  color: #000000;
   -webkit-tap-highlight-color: transparent;
 `
 
