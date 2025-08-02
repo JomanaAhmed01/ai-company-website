@@ -33,10 +33,12 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* border: 3px solid red; */
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    height: 1350px;
+    /* height: 1350px; */
+    /* border: 3px solid red; */
   }
 `
 
@@ -47,7 +49,8 @@ export const TextWrapper = styled.div`
   height: 400px;
 
   @media screen and (max-width: 1024px) {
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 350px;
   }
 
