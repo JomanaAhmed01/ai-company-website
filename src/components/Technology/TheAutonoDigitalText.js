@@ -33,13 +33,13 @@ function TheAutonoDigitalText() {
 
 export const Wrapper = styled.div`
   height: 440px;
-  margin-top: -70px;
+  margin-top: -100px;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #000000;
 
   @media screen and (max-width: 768px) {
-    height: 840px;
+    height: 640px;
     align-items: center;
     flex-direction: column;
   }
@@ -65,7 +65,9 @@ export const TextOne = styled.p`
   width: 335px;
 `
 
-export const TextTwoWrapper = styled.div``
+export const TextTwoWrapper = styled.div`
+  /* margin-top: -100px; */
+`
 
 export const HeaderTwo = styled.p`
   color: #000000;
