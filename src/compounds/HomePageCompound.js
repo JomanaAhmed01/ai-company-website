@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { useHistory } from "react-router-dom"
 import Navbar from "../components/HomePage/Navbar"
 import Header from "../components/HomePage/Header"
 import Vision from "../components/HomePage/Vision"
@@ -14,10 +15,46 @@ import Careers from "../components/HomePage/Careers"
 import Footer from "../components/HomePage/Footer"
 
 function HomePageCompound() {
+  const [showBanner, setShowBanner] = React.useState(false)
+
+  const toggleBanner = () => {
+    setShowBanner(!showBanner)
+  }
+
+  const history = useHistory()
+
   return (
     <Wrapper>
+      {showBanner && (
+        <BannerWrapper>
+          <ItemsWrapper>
+            <CloseButton onClick={toggleBanner}>×</CloseButton>
+            <TechnologyOption
+              onClick={() => history.push("/TechnologyPageCompound")}
+            >
+              Technology
+            </TechnologyOption>
+            <AboutOption
+              onClick={() => history.push("/AboutPageCompound")}
+            >
+              About
+            </AboutOption>
+            <CareersOption
+              onClick={() => history.push("/CareersPageCompound")}
+            >
+              Careers
+            </CareersOption>
+            <SubscribeOption
+              onClick={() => history.push("/SubscribePageCompound")}
+            >
+              Subscribe
+            </SubscribeOption>
+          </ItemsWrapper>
+        </BannerWrapper>
+      )}
+
       <HeaderWrapper>
-        <Navbar />
+        <Navbar toggleBanner={toggleBanner} />
         <Header />
       </HeaderWrapper>
 
@@ -54,44 +91,73 @@ export const HeaderWrapper = styled.div`
   height: 840px;
 `
 
-// export const Vision = styled.div`
-//   border: 3px solid red;
-// `
+export const BannerWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Anton", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+`
 
-// export const Services = styled.div`
-//   border: 3px solid red;
-// `
+export const ItemsWrapper = styled.p`
+  height: 400px;
+  background-color: #ffffff;
+  width: 250px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+`
 
-// export const AutonomousDriving = styled.div`
-//   border: 3px solid red;
-// `
+export const TechnologyOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #000000;
+`
 
-// export const RealTimeInfo = styled.div`
-//   border: 3px solid red;
-// `
+export const AboutOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #000000;
+`
 
-// export const PercepEnabled = styled.div`
-//   border: 3px solid red;
-// `
+export const CareersOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #000000;
+`
 
-// export const WhyAutono = styled.div`
-//   border: 3px solid red;
-// `
+export const SubscribeOption = styled.p`
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border-radius: 7px;
+`
 
-// export const AutonoInNums = styled.div`
-//   border: 3px solid red;
-// `
-
-// export const Industry = styled.div`
-//   border: 3px solid red;
-// `
-
-// export const Careers = styled.div`
-//   border: 3px solid red;
-// `
-
-// export const Footer = styled.div`
-//   border: 3px solid red;
-// `
+const CloseButton = styled.div`
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+`
 
 export default HomePageCompound

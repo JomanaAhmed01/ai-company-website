@@ -1,30 +1,36 @@
-import React from 'react';
+import React, { useState } from "react"
 import styled from "styled-components"
-import { useHistory } from 'react-router-dom'
-import { MenuAlt4 } from '@styled-icons/heroicons-outline/MenuAlt4'
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
+import { useHistory } from "react-router-dom"
+import { MenuAlt4 } from "@styled-icons/heroicons-outline/MenuAlt4"
+;<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
-function Navbar() {
-
+function Navbar({ toggleBanner }) {
   const history = useHistory()
-  
+
   return (
     <Wrapper>
-      <LogoWrapper onClick={() => history.push('/')}>
+      <LogoWrapper onClick={() => history.push("/")}>
         <Logo>AUTONO</Logo>
       </LogoWrapper>
 
       <BtnsWrapper>
-        <Link onClick={() => history.push('/TechnologyPageCompound')}>Technology</Link>
-        <Link onClick={() => history.push('/AboutPageCompound')}>About</Link>
-        <Link onClick={() => history.push('/CareersPageCompound')}>Careers</Link>
-        <Button onClick={() => history.push('/SubscribePageCompound')}>Subscribe</Button>
-        <MenuIcon />
+        <Link onClick={() => history.push("/TechnologyPageCompound")}>
+          Technology
+        </Link>
+        <Link onClick={() => history.push("/AboutPageCompound")}>About</Link>
+        <Link onClick={() => history.push("/CareersPageCompound")}>
+          Careers
+        </Link>
+        <Button onClick={() => history.push("/SubscribePageCompound")}>
+          Subscribe
+        </Button>
+        <MenuIcon onClick={toggleBanner} />
       </BtnsWrapper>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
@@ -35,7 +41,7 @@ export const Wrapper = styled.div`
   width: 88%;
 
   @media screen and (max-width: 768px) {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 100%;
     padding-left: 70px;
   }
@@ -56,7 +62,7 @@ export const LogoWrapper = styled.div`
 export const Logo = styled.p`
   color: #000000;
   font-size: 25px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: bold;
   letter-spacing: 0.25em;
 
@@ -86,13 +92,13 @@ export const BtnsWrapper = styled.div`
 `
 
 export const Link = styled.p`
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 
   :hover {
-    color: #C45308;
+    color: #c45308;
   }
 
   @media screen and (max-width: 768px) {
@@ -117,13 +123,13 @@ export const MenuIcon = styled(MenuAlt4)`
 `
 
 export const Button = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 7px; 
+  padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 10px;
   border: 1px solid #000000;
@@ -132,7 +138,7 @@ export const Button = styled.p`
 
   :hover {
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   @media screen and (max-width: 490px) {
@@ -141,4 +147,17 @@ export const Button = styled.p`
   }
 `
 
-export default Navbar;
+export const BannerWrapper = styled.div`
+  height: 300px;
+  background-color: #000000;
+`
+
+export const Technology = styled.div``
+
+export const About = styled.div``
+
+export const Careers = styled.div``
+
+export const Subscribe = styled.div``
+
+export default Navbar
