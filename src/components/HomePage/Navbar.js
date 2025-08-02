@@ -152,12 +152,4 @@ export const BannerWrapper = styled.div`
   background-color: #000000;
 `
 
-export const Technology = styled.div``
-
-export const About = styled.div``
-
-export const Careers = styled.div``
-
-export const Subscribe = styled.div``
-
 export default Navbar
