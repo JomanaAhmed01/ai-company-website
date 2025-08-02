@@ -73,9 +73,9 @@ export const Wrapper = styled.div`
   padding: 0;
   overflow-x: hidden;
   width: 100%;
-  max-width: 100%; /* not 100vw */
+  max-width: 100%;
   box-sizing: border-box;
-  transform: translateZ(0); /* triggers GPU layer */
+  transform: translateZ(0);
   will-change: transform;
 `
 
