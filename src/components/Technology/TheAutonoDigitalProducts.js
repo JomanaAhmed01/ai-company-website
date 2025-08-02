@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    /* height: 1350px; */
+    height: 1350px;
   }
 `
 
@@ -43,7 +43,7 @@ export const TextWrapper = styled.div`
   height: 310px;
 
   @media screen and (max-width: 1024px) {
-    margin-top: 70px;
+    margin-top: 150px;
     height: 210px;
   }
 
