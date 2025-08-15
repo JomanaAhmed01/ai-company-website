@@ -19,9 +19,9 @@ function Vision() {
         </Text>
       </TextWrapper>
 
-      <ImageWrapper>
+      {/* <ImageWrapper>
         <Image src="./img/car-1.png" />
-      </ImageWrapper>
+      </ImageWrapper> */}
     </Wrapper>
   )
 }
