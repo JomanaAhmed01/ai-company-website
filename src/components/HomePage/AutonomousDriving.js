@@ -38,6 +38,9 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 120px;
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
