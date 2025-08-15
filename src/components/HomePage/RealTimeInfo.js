@@ -35,9 +35,12 @@ function RealTimeInfo() {
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 100px;
+  max-width: 2300px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -49,7 +52,6 @@ export const Wrapper = styled.div`
 
 export const TextWrapper = styled.div`
   margin-top: -100px;
-  margin-right: 150px;
 
   @media screen and (max-width: 1024px) {
     margin-right: 0px;
