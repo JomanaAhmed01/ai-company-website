@@ -12,35 +12,39 @@ function Careers() {
 
   return (
     <Wrapper>
-      <TextWrapper>
-        <HeaderText>CAREERS</HeaderText>
-        <Header>
-          We’re looking for innovative talent to join our team. See all
-          positions and submit your CV.
-        </Header>
-        <ButtonWrapper onClick={() => history.push("/CareersPageCompound")}>
-          <Button>Openings</Button>
-          <Arrow />
-        </ButtonWrapper>
-      </TextWrapper>
-
-      <TextWrapperSecond>
-        <BorderWrapper>
-          <HeaderSecond>ARTIFICIAL INTELLIGENCE RESEARCHER</HeaderSecond>
-          <HeaderTextSecond>San Francisco, CA</HeaderTextSecond>
-          <TextSecond>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. I’m a great place for you to
-            tell a story and let your users know a little more about you.
-          </TextSecond>
-
-          <ButtonWrapper onClick={() => history.push("/SubscribePageCompound")}>
-            <Button>Apply Now</Button>
+      <SecondWrapper>
+        <TextWrapper>
+          <HeaderText>CAREERS</HeaderText>
+          <Header>
+            We’re looking for innovative talent to join our team. See all
+            positions and submit your CV.
+          </Header>
+          <ButtonWrapper onClick={() => history.push("/CareersPageCompound")}>
+            <Button>Openings</Button>
             <Arrow />
           </ButtonWrapper>
-        </BorderWrapper>
-      </TextWrapperSecond>
+        </TextWrapper>
+
+        <TextWrapperSecond>
+          <BorderWrapper>
+            <HeaderSecond>ARTIFICIAL INTELLIGENCE RESEARCHER</HeaderSecond>
+            <HeaderTextSecond>San Francisco, CA</HeaderTextSecond>
+            <TextSecond>
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </TextSecond>
+
+            <ButtonWrapper
+              onClick={() => history.push("/SubscribePageCompound")}
+            >
+              <Button>Apply Now</Button>
+              <Arrow />
+            </ButtonWrapper>
+          </BorderWrapper>
+        </TextWrapperSecond>
+      </SecondWrapper>
     </Wrapper>
   )
 }
@@ -48,7 +52,17 @@ function Careers() {
 export const Wrapper = styled.div`
   background-color: #000000;
   height: 740px;
-  max-width: 1300px;
+
+  @media screen and (max-width: 1070px) {
+    flex-direction: column;
+    height: 1200px;
+  }
+`
+
+export const SecondWrapper = styled.div`
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -66,12 +80,13 @@ export const TextWrapper = styled.div`
   padding-left: 30px;
   margin-left: 100px;
   height: 350px;
+  max-width: 1000px;
 
   @media screen and (max-width: 1070px) {
     margin-left: 0px;
   }
 
-  @media screen and (max-width: 410px) {
+  @media screen and (max-width: 540px) {
     margin-left: 50px;
   }
 `
@@ -95,7 +110,7 @@ export const Header = styled.p`
   margin-bottom: 40px;
   padding-left: 30px;
 
-  @media screen and (max-width: 410px) {
+  @media screen and (max-width: 540px) {
     font-size: 16px;
     width: 90%;
   }
