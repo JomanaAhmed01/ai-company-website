@@ -30,18 +30,18 @@ function HomePageCompound() {
           <ItemsWrapper>
             <CloseButton onClick={toggleBanner}>×</CloseButton>
             <TechnologyOption
-              onClick={() => history.push("/TechnologyPageCompound")}
+              onClick={() => history.push("/")}
             >
               Technology
             </TechnologyOption>
-            <AboutOption onClick={() => history.push("/AboutPageCompound")}>
+            <AboutOption onClick={() => history.push("/")}>
               About
             </AboutOption>
-            <CareersOption onClick={() => history.push("/CareersPageCompound")}>
+            <CareersOption onClick={() => history.push("/")}>
               Careers
             </CareersOption>
             <SubscribeOption
-              onClick={() => history.push("/SubscribePageCompound")}
+              onClick={() => history.push("/")}
             >
               Subscribe
             </SubscribeOption>
