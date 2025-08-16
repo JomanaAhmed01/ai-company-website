@@ -17,7 +17,7 @@ function Services() {
 export const Wrapper = styled.div`
   margin-top: 120px;
   padding-left: 50px;
-  width: 1200px;
+  width: 1570px;
   margin-left: auto;
   margin-right: auto;
 
