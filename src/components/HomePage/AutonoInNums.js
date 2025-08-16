@@ -57,7 +57,6 @@ export const Wrapper = styled.div`
     background-image: none;
     flex-direction: column;
     height: 1300px;
-    border: 3px solid red;
   }
 
   @media screen and (max-width: 590px) {
