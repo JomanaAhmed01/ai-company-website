@@ -30,7 +30,6 @@ export const Wrapper = styled.div`
   background-color: #000000;
   border: 1px solid transparent;
   height: 850px;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,7 +44,7 @@ export const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 800px;
+    height: 900px;
   }
 `
 
