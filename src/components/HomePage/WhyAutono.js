@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react"
 import styled from "styled-components"
-import { useHistory } from 'react-router-dom'
-import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
+import { useHistory } from "react-router-dom"
+import { ArrowRight } from "@styled-icons/bootstrap/ArrowRight"
 
 function WhyAutono() {
-
   const history = useHistory()
 
   return (
@@ -12,26 +11,28 @@ function WhyAutono() {
       <TextWrapper>
         <BorderWrapper>
           <HeaderText>WHY AUTONO</HeaderText>
-          <Header>A different approach, using a new method of manufacturing.</Header>
-          <Text>I'm a paragraph.
-            Click here to add your own text and edit me.
-            It’s easy.
-            Just click “Edit Text” or double click me to add your own content and make changes to the font.
-            I’m a great place for you to tell a story and let your users know a little more about you.
+          <Header>
+            A different approach, using a new method of manufacturing.
+          </Header>
+          <Text>
+            I'm a paragraph. Click here to add your own text and edit me. It’s
+            easy. Just click “Edit Text” or double click me to add your own
+            content and make changes to the font. I’m a great place for you to
+            tell a story and let your users know a little more about you.
           </Text>
 
-          <ButtonWrapper onClick={() => history.push('/AboutPageCompound')}>
+          <ButtonWrapper onClick={() => history.push("/AboutPageCompound")}>
             <Button>Read More</Button>
             <Arrow />
           </ButtonWrapper>
         </BorderWrapper>
       </TextWrapper>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
-  background-image: url('./img/factory.png');
+  background-image: url("./img/factory.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,25 +63,25 @@ export const TextWrapper = styled.div`
 `
 
 export const BorderWrapper = styled.div`
-  border-left: 1px solid rgb(180,180,180);
+  border-left: 1px solid rgb(180, 180, 180);
   padding-left: 50px;
 `
 
 export const HeaderText = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.08em;
 `
 
 export const Header = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 280px;
-  border-left: 3px solid #FFFFFF;
+  border-left: 3px solid #ffffff;
   margin-left: -50px;
   padding-left: 50px;
   margin-bottom: 80px;
@@ -92,9 +93,9 @@ export const Header = styled.p`
 `
 
 export const Text = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.08em;
   width: 335px;
   line-height: 30px;
@@ -109,7 +110,7 @@ export const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
   width: 150px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -118,18 +119,17 @@ export const ButtonWrapper = styled.div`
 `
 
 export const Button = styled.p`
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 0.05em;
   padding-right: 20px;
 `
 
 export const Arrow = styled(ArrowRight)`
-  color: #FFFFFF;
+  color: #ffffff;
   width: 30px;
   height: 30px;
 `
 
-
-export default WhyAutono;
+export default WhyAutono
