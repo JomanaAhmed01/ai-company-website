@@ -29,20 +29,14 @@ function HomePageCompound() {
         <BannerWrapper>
           <ItemsWrapper>
             <CloseButton onClick={toggleBanner}>×</CloseButton>
-            <TechnologyOption
-              onClick={() => history.push("/")}
-            >
+            <TechnologyOption onClick={() => history.push("/")}>
               Technology
             </TechnologyOption>
-            <AboutOption onClick={() => history.push("/")}>
-              About
-            </AboutOption>
+            <AboutOption onClick={() => history.push("/")}>About</AboutOption>
             <CareersOption onClick={() => history.push("/")}>
               Careers
             </CareersOption>
-            <SubscribeOption
-              onClick={() => history.push("/")}
-            >
+            <SubscribeOption onClick={() => history.push("/")}>
               Subscribe
             </SubscribeOption>
           </ItemsWrapper>
