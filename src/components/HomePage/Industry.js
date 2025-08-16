@@ -8,55 +8,63 @@ import styled from "styled-components"
 function Industry() {
   return (
     <Wrapper>
-      <TextWrapper>
-        <HeaderText>INDUSTRY</HeaderText>
-        <Header>Our Partners</Header>
-        <Text>
-          Click here to add your own content and customize the text. This is a
-          great place to tell a story about your company and let your users know
-          a little more about the company's history, the team's background, or
-          any other information you'd like to share. Just click "Edit Text" to
-          get started.
-        </Text>
-      </TextWrapper>
+      <SecondWrapper>
+        <TextWrapper>
+          <HeaderText>INDUSTRY</HeaderText>
+          <Header>Our Partners</Header>
+          <Text>
+            Click here to add your own content and customize the text. This is a
+            great place to tell a story about your company and let your users
+            know a little more about the company's history, the team's
+            background, or any other information you'd like to share. Just click
+            "Edit Text" to get started.
+          </Text>
+        </TextWrapper>
 
-      <LogosWrapper>
-        <FirstRow>
-          <LogoNameWrapper>
-            <FirstLogo src="./img/general-transport-logo.png" />
-            <LogoName>GENERAL TRANSPORT</LogoName>
-          </LogoNameWrapper>
+        <LogosWrapper>
+          <FirstRow>
+            <LogoNameWrapper>
+              <FirstLogo src="./img/general-transport-logo.png" />
+              <LogoName>GENERAL TRANSPORT</LogoName>
+            </LogoNameWrapper>
 
-          <LogoNameWrapper>
-            <SecondLogo src="./img/idi-software-logo.png" />
-            <LogoName>IDI SOFTWARE</LogoName>
-          </LogoNameWrapper>
-        </FirstRow>
+            <LogoNameWrapper>
+              <SecondLogo src="./img/idi-software-logo.png" />
+              <LogoName>IDI SOFTWARE</LogoName>
+            </LogoNameWrapper>
+          </FirstRow>
 
-        <SecondRow>
-          <LogoNameWrapper>
-            <ThirdLogo src="./img/imogen-cars-logo.png" />
-            <LogoName>IMOGEN CARS</LogoName>
-          </LogoNameWrapper>
+          <SecondRow>
+            <LogoNameWrapper>
+              <ThirdLogo src="./img/imogen-cars-logo.png" />
+              <LogoName>IMOGEN CARS</LogoName>
+            </LogoNameWrapper>
 
-          <LogoNameWrapper>
-            <FourthLogo src="./img/tri-nex-logo.png" />
-            <LogoName>TRI-NEX</LogoName>
-          </LogoNameWrapper>
-        </SecondRow>
-      </LogosWrapper>
+            <LogoNameWrapper>
+              <FourthLogo src="./img/tri-nex-logo.png" />
+              <LogoName>TRI-NEX</LogoName>
+            </LogoNameWrapper>
+          </SecondRow>
+        </LogosWrapper>
+      </SecondWrapper>
     </Wrapper>
   )
 }
 
 export const Wrapper = styled.div`
   background-color: #000000;
-  height: 540px;
+  border-bottom: 1px solid #8c8c8c;
   padding-top: 50px;
+`
+
+export const SecondWrapper = styled.div`
+  max-width: 1800px;
+  height: 540px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #8c8c8c;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -67,10 +75,11 @@ export const Wrapper = styled.div`
 export const TextWrapper = styled.div`
   border-left: 1px solid #8c8c8c;
   padding-left: 30px;
-  margin-left: 150px;
+  margin-left: 100px;
   height: 450px;
 
   @media screen and (max-width: 1024px) {
+    margin-bottom: 50px;
     margin-left: 0px;
   }
 
@@ -142,6 +151,8 @@ export const SecondRow = styled.div`
 `
 
 export const LogoNameWrapper = styled.div``
+
+export const LogoNameWrapperSpecial = styled.div``
 
 export const FirstLogo = styled.img``
 
