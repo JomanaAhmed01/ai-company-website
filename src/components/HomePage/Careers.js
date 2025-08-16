@@ -1,21 +1,24 @@
-import React from 'react';
+import React from "react"
 import styled from "styled-components"
-import { useHistory } from 'react-router-dom'
-import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
+import { useHistory } from "react-router-dom"
+import { ArrowRight } from "@styled-icons/bootstrap/ArrowRight"
+;<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function Careers() {
-
   const history = useHistory()
 
   return (
     <Wrapper>
       <TextWrapper>
         <HeaderText>CAREERS</HeaderText>
-        <Header>We’re looking for innovative talent to join our team. See all positions and submit your CV.</Header>
-        <ButtonWrapper onClick={() => history.push('/CareersPageCompound')}>
+        <Header>
+          We’re looking for innovative talent to join our team. See all
+          positions and submit your CV.
+        </Header>
+        <ButtonWrapper onClick={() => history.push("/CareersPageCompound")}>
           <Button>Openings</Button>
           <Arrow />
         </ButtonWrapper>
@@ -25,26 +28,27 @@ function Careers() {
         <BorderWrapper>
           <HeaderSecond>ARTIFICIAL INTELLIGENCE RESEARCHER</HeaderSecond>
           <HeaderTextSecond>San Francisco, CA</HeaderTextSecond>
-          <TextSecond>I'm a paragraph.
-            Click here to add your own text and edit me.
-            It’s easy.
-            Just click “Edit Text” or double click me to add your own content and make changes to the font.
-            I’m a great place for you to tell a story and let your users know a little more about you.
+          <TextSecond>
+            I'm a paragraph. Click here to add your own text and edit me. It’s
+            easy. Just click “Edit Text” or double click me to add your own
+            content and make changes to the font. I’m a great place for you to
+            tell a story and let your users know a little more about you.
           </TextSecond>
 
-          <ButtonWrapper onClick={() => history.push('/SubscribePageCompound')}>
+          <ButtonWrapper onClick={() => history.push("/SubscribePageCompound")}>
             <Button>Apply Now</Button>
             <Arrow />
           </ButtonWrapper>
         </BorderWrapper>
       </TextWrapperSecond>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
   background-color: #000000;
   height: 740px;
+  max-width: 1300px;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -73,20 +77,20 @@ export const TextWrapper = styled.div`
 `
 
 export const HeaderText = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.08em;
 `
 
 export const Header = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.08em;
   line-height: 40px;
   width: 365px;
-  border-left: 3px solid #FFFFFF;
+  border-left: 3px solid #ffffff;
   margin-left: -30px;
   margin-bottom: 40px;
   padding-left: 30px;
@@ -101,7 +105,7 @@ export const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
   width: 150px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -110,15 +114,15 @@ export const ButtonWrapper = styled.div`
 `
 
 export const Button = styled.p`
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 0.05em;
   padding-right: 30px;
 `
 
 export const Arrow = styled(ArrowRight)`
-  color: #FFFFFF;
+  color: #ffffff;
   width: 30px;
   height: 30px;
 `
@@ -149,14 +153,12 @@ export const TextWrapperSecond = styled.div`
   }
 `
 
-export const BorderWrapper = styled.div`
-  
-`
+export const BorderWrapper = styled.div``
 
 export const HeaderSecond = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 380px;
@@ -176,16 +178,16 @@ export const HeaderSecond = styled.p`
 `
 
 export const HeaderTextSecond = styled.p`
-  color: #B4B4B4;
+  color: #b4b4b4;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.08em;
 `
 
 export const TextSecond = styled.p`
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.08em;
   width: 335px;
   line-height: 30px;
@@ -201,4 +203,4 @@ export const TextSecond = styled.p`
   }
 `
 
-export default Careers;
+export default Careers
