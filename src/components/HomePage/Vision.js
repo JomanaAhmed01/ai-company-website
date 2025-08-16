@@ -18,6 +18,10 @@ function Vision() {
           tell a story and let your users know a little more about you.
         </Text>
       </TextWrapper>
+
+      {/* <ImageWrapper>
+        <Image src="./img/car-1.png" />
+      </ImageWrapper> */}
     </Wrapper>
   )
 }
