@@ -67,7 +67,7 @@ export const TextWrapper = styled.div`
 
 export const BorderWrapper = styled.div`
   border-left: 1px solid rgb(180, 180, 180);
-  padding-left: 50px;
+  padding-left: 20px;
 `
 
 export const HeaderText = styled.p`
@@ -85,8 +85,8 @@ export const Header = styled.p`
   letter-spacing: 0.08em;
   width: 280px;
   border-left: 3px solid #ffffff;
-  margin-left: -50px;
-  padding-left: 50px;
+  margin-left: -22px;
+  padding-left: 18px;
   margin-bottom: 80px;
 
   @media screen and (max-width: 640px) {
