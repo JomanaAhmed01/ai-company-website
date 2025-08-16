@@ -35,8 +35,6 @@ export const Wrapper = styled.div`
   width: 88%;
 
   @media screen and (max-width: 768px) {
-    background-color: #ffffff;
-    width: 100%;
     padding-left: 70px;
   }
 
@@ -73,11 +71,11 @@ export const BtnsWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 220px;
-    padding-right: 130px;
+    padding-right: 30px;
   }
 
   @media screen and (max-width: 580px) {
-    padding-right: 40px;
+    padding-right: 0px;
   }
 
   @media screen and (max-width: 490px) {
