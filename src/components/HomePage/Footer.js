@@ -74,9 +74,11 @@ export const LogoWrapper = styled.div`
   bottom: 100px;
   left: 50px;
 
-  @media screen and (max-width: 490px) {
+  @media screen and (max-width: 930px) {
     bottom: 50px;
     left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 `
 
@@ -179,10 +181,13 @@ export const Address = styled.p`
 `
 
 export const SecondColumn = styled.div`
+  @media screen and (max-width: 930px) {
+    margin-left: 50px;
+  }
+
   @media screen and (max-width: 490px) {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75%;
+    margin-left: 0px;
   }
 `
 
