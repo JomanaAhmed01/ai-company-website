@@ -17,13 +17,12 @@ function Services() {
 export const Wrapper = styled.div`
   margin-top: 120px;
   padding-left: 50px;
-  width: 1570px;
+  max-width: 1570px;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (max-width: 510px) {
     display: flex;
-    justify-content: center;
     padding-left: 0px;
   }
 `
