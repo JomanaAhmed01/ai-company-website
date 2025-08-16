@@ -65,12 +65,13 @@ function HomePageCompound() {
 export const Wrapper = styled.div`
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  transform: translateZ(0);
-  will-change: transform;
+  /* transform: translateZ(0);
+  will-change: transform; */
+  scroll-behavior: smooth;
 `
 
 export const HeaderWrapper = styled.div`
