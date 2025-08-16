@@ -17,16 +17,10 @@ function Navbar({ toggleBanner }) {
       </LogoWrapper>
 
       <BtnsWrapper>
-        <Link onClick={() => history.push("/")}>
-          Technology
-        </Link>
+        <Link onClick={() => history.push("/")}>Technology</Link>
         <Link onClick={() => history.push("/")}>About</Link>
-        <Link onClick={() => history.push("/")}>
-          Careers
-        </Link>
-        <Button onClick={() => history.push("/")}>
-          Subscribe
-        </Button>
+        <Link onClick={() => history.push("/")}>Careers</Link>
+        <Button onClick={() => history.push("/")}>Subscribe</Button>
         <MenuIcon onClick={toggleBanner} />
       </BtnsWrapper>
     </Wrapper>
