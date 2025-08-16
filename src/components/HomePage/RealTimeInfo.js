@@ -1,36 +1,36 @@
-import React from 'react';
+import React from "react"
 import styled from "styled-components"
-import { useHistory } from 'react-router-dom'
-import { ArrowRight } from '@styled-icons/bootstrap/ArrowRight'
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
+import { useHistory } from "react-router-dom"
+import { ArrowRight } from "@styled-icons/bootstrap/ArrowRight"
+;<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Montserrat:wght@200;300;400&family=Poppins&family=Questrial&family=Quicksand:wght@300&family=Roboto:wght@300&family=Suez+One&display=swap');
 </style>
 
 function RealTimeInfo() {
-
   const history = useHistory()
 
   return (
     <Wrapper>
       <ImageWrapper>
-        <Image src='./img/speed-limit.png' />
+        <Image src="./img/speed-limit.png" />
       </ImageWrapper>
 
       <TextWrapper>
         <Header>REAL-TIME INFORMATION</Header>
-        <Text>I'm a paragraph.
-          Click here to add your own text and edit me.
-          It’s easy.
-          Just click “Edit Text” or double click me to add your own content and make changes to the font.
-          I’m a great place for you to tell a story and let your users know a little more about you.
+        <Text>
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font. I’m a great place for you to
+          tell a story and let your users know a little more about you.
         </Text>
-        <ButtonWrapper onClick={() => history.push('/TechnologyPageCompound')}>
+        <ButtonWrapper onClick={() => history.push("/TechnologyPageCompound")}>
           <Button>Read More</Button>
           <Arrow />
         </ButtonWrapper>
       </TextWrapper>
     </Wrapper>
-  );
+  )
 }
 
 export const Wrapper = styled.div`
@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
 
 export const Header = styled.p`
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   letter-spacing: 0.08em;
   line-height: 60px;
@@ -72,7 +72,7 @@ export const Header = styled.p`
 
 export const Text = styled.p`
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 0.05em;
   line-height: 30px;
@@ -102,7 +102,7 @@ export const ButtonWrapper = styled.div`
 
 export const Button = styled.p`
   color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   letter-spacing: 0.05em;
   padding-right: 20px;
@@ -113,16 +113,13 @@ export const Arrow = styled(ArrowRight)`
   height: 30px;
 `
 
-export const ImageWrapper = styled.div`
-  
-`
+export const ImageWrapper = styled.div``
 
 export const Image = styled.img`
   width: 100%;
 
   @media screen and (max-width: 1024px) {
-    
   }
 `
 
-export default RealTimeInfo;
+export default RealTimeInfo
