@@ -61,7 +61,7 @@ function TechnologyPageCompound() {
 }
 
 export const Wrapper = styled.div`
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 `
 
 export const HeaderWrapper = styled.div`
