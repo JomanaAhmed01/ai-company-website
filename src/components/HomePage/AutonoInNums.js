@@ -49,6 +49,9 @@ export const Wrapper = styled.div`
   height: 790px;
   display: flex;
   justify-content: flex-end;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (max-width: 1100px) {
     background-image: none;
