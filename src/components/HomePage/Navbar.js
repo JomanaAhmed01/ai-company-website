@@ -128,9 +128,11 @@ export const Button = styled.p`
   transition: 0.3s ease-in-out;
   cursor: pointer;
 
-  :hover {
-    color: #000000;
-    background-color: #ffffff;
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      background: white;
+      color: black;
+    }
   }
 
   @media screen and (max-width: 490px) {

@@ -256,10 +256,11 @@ export const Button = styled.p`
   text-align: center;
   transition: 0.3s ease-in-out;
 
-  :hover {
-    background-color: #ffffff;
-    color: #000000;
-    cursor: pointer;
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      background: white;
+      color: black;
+    }
   }
 
   @media screen and (max-width: 430px) {
