@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+// import React, { useState } from "react"
 import styled from "styled-components"
 import { useHistory } from "react-router-dom"
 import { MenuAlt4 } from "@styled-icons/heroicons-outline/MenuAlt4"
@@ -17,14 +17,14 @@ function Navbar({ toggleBanner }) {
       </LogoWrapper>
 
       <BtnsWrapper>
-        <Link onClick={() => history.push("/TechnologyPageCompound")}>
+        <Link onClick={() => history.push("/")}>
           Technology
         </Link>
-        <Link onClick={() => history.push("/AboutPageCompound")}>About</Link>
-        <Link onClick={() => history.push("/CareersPageCompound")}>
+        <Link onClick={() => history.push("/")}>About</Link>
+        <Link onClick={() => history.push("/")}>
           Careers
         </Link>
-        <Button onClick={() => history.push("/SubscribePageCompound")}>
+        <Button onClick={() => history.push("/")}>
           Subscribe
         </Button>
         <MenuIcon onClick={toggleBanner} />
