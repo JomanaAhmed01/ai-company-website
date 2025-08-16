@@ -221,7 +221,6 @@ export const Email = styled.input`
   border: 1px solid #000000;
   width: 264px;
   height: 40px;
-  /* border-radius: 10px; */
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   padding-left: 20px;
