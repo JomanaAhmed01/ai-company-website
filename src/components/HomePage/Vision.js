@@ -19,9 +19,9 @@ function Vision() {
         </Text>
       </TextWrapper>
 
-      {/* <ImageWrapper>
+      <ImageWrapper>
         <Image src="./img/car-1.png" />
-      </ImageWrapper> */}
+      </ImageWrapper>
     </Wrapper>
   )
 }
@@ -37,7 +37,15 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    height: 750px;
+    height: 1250px;
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 800px;
   }
 `
 
