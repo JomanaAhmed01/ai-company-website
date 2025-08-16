@@ -48,15 +48,18 @@ export const TextWrapper = styled.div`
   border-radius: 20px;
   position: relative;
   top: 70px;
+  margin-left: 20%;
   padding-left: 50px;
   padding-top: 100px;
-  margin-left: 50px;
   width: 490px;
   height: 660px;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 900px) {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (max-width: 640px) {
     width: 80%;
     height: 690px;
   }
