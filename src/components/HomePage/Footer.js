@@ -221,6 +221,7 @@ export const Email = styled.input`
   border: 1px solid #000000;
   width: 264px;
   height: 40px;
+  /* border-radius: 10px; */
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   padding-left: 20px;
@@ -242,7 +243,8 @@ export const Button = styled.p`
   font-family: "Montserrat", sans-serif;
   padding-left: 25px;
   padding-right: 25px;
-  height: 15.5px;
+  padding-top: 11.5px;
+  padding-bottom: 12.5px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
@@ -257,8 +259,9 @@ export const Button = styled.p`
   }
 
   @media screen and (max-width: 430px) {
-    padding-top: 15px;
+    padding-top: 12px;
     padding-bottom: 12.5px;
+    /* height: 15.5px; */
   }
 `
 
