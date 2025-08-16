@@ -263,8 +263,8 @@ export const Button = styled.p`
   }
 
   @media screen and (max-width: 430px) {
-    padding-top: 12px;
-    padding-bottom: 12.5px;
+    padding-top: 13.5px;
+    padding-bottom: 15.5px;
   }
 `
 
