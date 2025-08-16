@@ -43,7 +43,7 @@ export const Wrapper = styled.div`
   margin-right: auto;
 
   @media screen and (max-width: 1024px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `
 
