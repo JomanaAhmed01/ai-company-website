@@ -35,13 +35,9 @@ function PercepEnabled() {
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  max-width: 1800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 120px;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column-reverse;
@@ -50,11 +46,14 @@ export const Wrapper = styled.div`
 
 export const TextWrapper = styled.div`
   margin-top: -100px;
-  margin-left: 150px;
+  margin-left: 20px;
+
+  @media screen and (max-width: 1220px) {
+    margin-left: 60px;
+  }
 
   @media screen and (max-width: 1024px) {
     margin-left: 0px;
-    margin-top: 0px;
   }
 `
 
