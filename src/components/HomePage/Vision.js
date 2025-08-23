@@ -57,11 +57,19 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     margin-top: 50px;
     height: 350px;
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+
+  @media screen and (max-width: 660px) {
+    margin-left: 0px;
+    width: 90%;
+    margin-left: 30px;
   }
 
   @media screen and (max-width: 480px) {
     height: auto;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 `
 
@@ -79,13 +87,12 @@ export const Header = styled.p`
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 280px;
-  border-left: 3px solid #ffffff;
-  margin-left: -50px;
-  padding-left: 50px;
+  /* border-left: 3px solid #ffffff; */
+  /* margin-left: -50px; */
+  /* padding-left: 50px; */
 
   @media screen and (max-width: 660px) {
     margin-left: 0px;
-    padding-left: 20px;
     width: 90%;
   }
 
