@@ -14,23 +14,19 @@ function Footer() {
         </LogoWrapper>
 
         <FirstRow>
-          <Tech>Technology</Tech>
           <PhoneNum>Tel: 123-456-7890</PhoneNum>
         </FirstRow>
 
         <SecondRow>
-          <About>About</About>
           <EmailAddress>Email: info@mysite.com</EmailAddress>
         </SecondRow>
 
         <ThirdRow>
-          <Careers>Careers</Careers>
           <Address>500 Terry Francois St San Francisco, CA 94158</Address>
         </ThirdRow>
       </FirstColumn>
 
       <SecondColumn>
-        <Header>SUBSCRIBE</Header>
         <Text>Sign up to receive Autono news and updates.</Text>
 
         <EmailWrapper>
@@ -46,11 +42,12 @@ function Footer() {
 }
 
 export const Wrapper = styled.div`
-  height: 535px;
+  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 100px;
+  padding-bottom: 50px;
 
   @media screen and (max-width: 930px) {
     flex-direction: column;
@@ -60,7 +57,9 @@ export const Wrapper = styled.div`
 export const FirstColumn = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  align-items: center;
+  height: auto;
+  /* border: 3px solid red; */
 
   @media screen and (max-width: 490px) {
     width: 90%;
@@ -70,10 +69,6 @@ export const FirstColumn = styled.div`
 `
 
 export const LogoWrapper = styled.div`
-  position: relative;
-  bottom: 100px;
-  left: 50px;
-
   @media screen and (max-width: 930px) {
     bottom: 50px;
     left: 0px;
@@ -88,6 +83,7 @@ export const Logo = styled.p`
   font-family: "Anton", sans-serif;
   font-weight: bold;
   letter-spacing: 0.3em;
+  margin-top: -15px;
 
   @media screen and (max-width: 490px) {
     font-size: 18px;
@@ -96,22 +92,9 @@ export const Logo = styled.p`
 `
 
 export const FirstRow = styled.div`
-  width: 450px;
+  /* width: 450px;
   display: flex;
-  justify-content: space-around;
-
-  @media screen and (max-width: 490px) {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-`
-
-export const Tech = styled.p`
-  color: #000000;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.04em;
+  justify-content: space-around; */
 `
 
 export const PhoneNum = styled.p`
@@ -119,27 +102,12 @@ export const PhoneNum = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
-  margin-right: 50px;
 `
 
 export const SecondRow = styled.div`
-  width: 450px;
+  /* width: 450px;
   display: flex;
-  justify-content: space-around;
-
-  @media screen and (max-width: 490px) {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-`
-
-export const About = styled.p`
-  color: #000000;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.04em;
-  margin-right: 20px;
+  justify-content: space-around; */
 `
 
 export const EmailAddress = styled.p`
@@ -147,27 +115,12 @@ export const EmailAddress = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
-  margin-left: 12px;
 `
 
 export const ThirdRow = styled.div`
-  width: 450px;
+  /* width: 450px;
   display: flex;
-  justify-content: space-around;
-
-  @media screen and (max-width: 490px) {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-`
-
-export const Careers = styled.p`
-  color: #000000;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.04em;
-  margin-right: 23px;
+  justify-content: space-around; */
 `
 
 export const Address = styled.p`
@@ -176,35 +129,21 @@ export const Address = styled.p`
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   line-height: 30px;
-  width: 200px;
-  margin-right: -11px;
-`
 
-export const SecondColumn = styled.div`
-  @media screen and (max-width: 930px) {
-    margin-left: 50px;
-  }
-
-  @media screen and (max-width: 490px) {
-    width: 75%;
-    margin-left: 0px;
+  @media screen and (max-width: 420px) {
+    width: 100%;
+    text-align: center;
   }
 `
 
-export const Header = styled.p`
-  color: #000000;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.04em;
-  margin-bottom: 50px;
-`
+export const SecondColumn = styled.div``
 
 export const Text = styled.p`
   color: #000000;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 `
 
 export const EmailWrapper = styled.div``
@@ -214,6 +153,7 @@ export const Label = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
+  margin-bottom: -5px;
 `
 
 export const EmailInputWrapper = styled.div`
@@ -263,9 +203,9 @@ export const Button = styled.p`
     }
   }
 
-  @media screen and (max-width: 430px) {
-    padding-top: 13.5px;
-    padding-bottom: 15.5px;
+  @media screen and (max-width: 420px) {
+    padding-top: 14.5px;
+    padding-bottom: 13.5px;
   }
 `
 

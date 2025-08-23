@@ -49,14 +49,16 @@ export const TextWrapper = styled.div`
   top: 70px;
   margin-left: 20%;
   padding-left: 50px;
-  padding-top: 100px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 0px;
   width: 490px;
-  height: 660px;
+  height: 560px;
 
   @media screen and (max-width: 660px) {
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
+    /* width: 90%; */
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -67,8 +69,11 @@ export const TextWrapper = styled.div`
   }
 
   @media screen and (max-width: 640px) {
-    width: 80%;
-    height: 690px;
+    width: 70%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
   }
 `
 
@@ -89,7 +94,7 @@ export const Header = styled.p`
   font-family: "Raleway", sans-serif;
   line-height: 1.8em;
   letter-spacing: 0.08em;
-  width: 280px;
+  width: auto;
   margin-bottom: 80px;
 
   @media screen and (max-width: 640px) {
@@ -103,7 +108,7 @@ export const Text = styled.p`
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.08em;
-  width: 335px;
+  width: auto;
   line-height: 30px;
 
   @media screen and (max-width: 640px) {
