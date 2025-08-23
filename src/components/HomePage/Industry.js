@@ -59,7 +59,7 @@ export const Wrapper = styled.div`
 
 export const SecondWrapper = styled.div`
   max-width: 1800px;
-  height: 540px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -68,25 +68,27 @@ export const SecondWrapper = styled.div`
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    height: 950px;
+    height: auto;
+    align-items: flex-start;
+    max-width: 100%;
   }
 `
 
 export const TextWrapper = styled.div`
   padding-left: 30px;
   margin-left: 100px;
-  height: 450px;
+  height: auto;
   /* max-width: 1000px; */
+
+  @media screen and (max-width: 1024px) {
+    margin-left: 50px;
+    padding-left: 0px;
+  }
 
   @media screen and (max-width: 660px) {
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
-  }
-
-  @media screen and (max-width: 1024px) {
-    margin-bottom: 50px;
-    margin-left: -50px;
   }
 
   @media screen and (max-width: 540px) {
@@ -107,7 +109,7 @@ export const Header = styled.p`
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.08em;
   line-height: 40px;
-  width: 120px;
+  /* width: 120px; */
   margin-bottom: 40px;
 
   @media screen and (max-width: 540px) {
@@ -123,9 +125,12 @@ export const Text = styled.p`
   letter-spacing: 0.08em;
   width: 330px;
 
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
+
   @media screen and (max-width: 540px) {
     font-size: 12px;
-    width: 85%;
   }
 `
 
@@ -145,6 +150,10 @@ export const FirstRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 40px;
+  }
 `
 
 export const SecondRow = styled.div`
