@@ -50,7 +50,7 @@ export const Wrapper = styled.div`
   padding-bottom: 50px;
   gap: 200px;
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: 1060px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -91,7 +91,6 @@ export const Logo = styled.p`
 
   @media screen and (max-width: 490px) {
     font-size: 18px;
-    text-align: center;
   }
 `
 
@@ -106,10 +105,6 @@ export const PhoneNum = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
-
-  @media screen and (max-width: 490px) {
-    text-align: center;
-  }
 `
 
 export const SecondRow = styled.div`
@@ -123,10 +118,6 @@ export const EmailAddress = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
-
-  @media screen and (max-width: 490px) {
-    text-align: center;
-  }
 `
 
 export const ThirdRow = styled.div`
@@ -141,13 +132,15 @@ export const Address = styled.p`
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
   line-height: 30px;
-
-  @media screen and (max-width: 490px) {
-    text-align: center;
-  }
 `
 
-export const SecondColumn = styled.div``
+export const SecondColumn = styled.div`
+  @media screen and (max-width: 490px) {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+`
 
 export const Text = styled.p`
   color: #000000;
