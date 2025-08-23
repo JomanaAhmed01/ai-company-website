@@ -37,6 +37,12 @@ export const Text = styled.p`
   margin-right: auto;
   margin-top: 10px;
 
+  @media screen and (max-width: 660px) {
+    width: 90%;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
   @media screen and (max-width: 768px) {
     width: 90%;
   }

@@ -35,6 +35,11 @@ export const TheHeader = styled.p`
   margin-right: auto;
   margin-top: 10px;
 
+  @media screen and (max-width: 660px) {
+    width: 90%;
+    font-size: 36px;
+  }
+
   @media screen and (max-width: 768px) {
     width: 90%;
     font-size: 45px;
@@ -51,6 +56,12 @@ export const HeaderText = styled.p`
   width: 705px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: 660px) {
+    width: 90%;
+    font-size: 18px;
+    line-height: 32px;
+  }
 
   @media screen and (max-width: 768px) {
     width: 90%;

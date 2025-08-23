@@ -51,6 +51,12 @@ export const Header = styled.p`
   margin-left: -50px;
   padding-left: 50px;
 
+  @media screen and (max-width: 660px) {
+    margin-left: 0px;
+    padding-left: 20px;
+    width: 90%;
+  }
+
   @media screen and (max-width: 1024px) {
     font-size: 20px;
   }

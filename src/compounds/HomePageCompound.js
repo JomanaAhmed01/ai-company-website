@@ -65,7 +65,7 @@ function HomePageCompound() {
 export const Wrapper = styled.div`
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;

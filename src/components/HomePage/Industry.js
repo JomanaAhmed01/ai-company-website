@@ -79,6 +79,12 @@ export const TextWrapper = styled.div`
   height: 450px;
   /* max-width: 1000px; */
 
+  @media screen and (max-width: 660px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+
   @media screen and (max-width: 1024px) {
     margin-bottom: 50px;
     margin-left: -50px;

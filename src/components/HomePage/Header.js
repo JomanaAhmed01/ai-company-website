@@ -31,6 +31,11 @@ export const TheHeader = styled.p`
   margin-right: auto;
   margin-top: 10px;
 
+  @media screen and (max-width: 660px) {
+    width: 90%;
+    font-size: 36px;
+  }
+
   @media screen and (max-width: 768px) {
     width: 90%;
     font-size: 45px;

@@ -67,6 +67,13 @@ export const FirstCard = styled.div`
   margin-top: 50px;
   margin-left: -420px;
 
+  @media screen and (max-width: 660px) {
+    margin-left: 0px;
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   @media screen and (max-width: 1060px) {
     margin-left: 0px;
   }
@@ -109,6 +116,10 @@ export const Text = styled.p`
   line-height: 30px;
   width: 540px;
 
+  @media screen and (max-width: 660px) {
+    width: 90%;
+  }
+
   @media screen and (max-width: 680px) {
     width: 90%;
     font-size: 14px;
@@ -123,6 +134,13 @@ export const SecondCard = styled.div`
   padding-left: 50px;
   margin-top: 50px;
   margin-right: -420px;
+
+  @media screen and (max-width: 660px) {
+    margin-right: 0px;
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
   @media screen and (max-width: 1060px) {
     margin-right: 0px;
