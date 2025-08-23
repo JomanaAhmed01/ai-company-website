@@ -101,7 +101,7 @@ export const Text = styled.p`
 
   @media screen and (max-width: 1024px) {
     font-size: 14px;
-    width: 50%;
+    width: 80%;
   }
 
   @media screen and (max-width: 480px) {
