@@ -32,7 +32,7 @@ function Footer() {
         <EmailWrapper>
           <Label>Email*</Label>
           <EmailInputWrapper>
-            <Email></Email>
+            <Email placeholder="Enter your email"></Email>
             <Button>Subscribe</Button>
           </EmailInputWrapper>
         </EmailWrapper>
@@ -44,22 +44,27 @@ function Footer() {
 export const Wrapper = styled.div`
   height: auto;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   padding-top: 100px;
   padding-bottom: 50px;
+  gap: 200px;
 
   @media screen and (max-width: 930px) {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
   }
 `
 
 export const FirstColumn = styled.div`
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end; */
   height: auto;
-  /* border: 3px solid red; */
+  margin-left: -43px;
 
   @media screen and (max-width: 490px) {
     width: 90%;
@@ -83,7 +88,6 @@ export const Logo = styled.p`
   font-family: "Anton", sans-serif;
   font-weight: bold;
   letter-spacing: 0.3em;
-  margin-top: -15px;
 
   @media screen and (max-width: 490px) {
     font-size: 18px;
@@ -102,6 +106,10 @@ export const PhoneNum = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
+
+  @media screen and (max-width: 490px) {
+    text-align: center;
+  }
 `
 
 export const SecondRow = styled.div`
@@ -115,6 +123,10 @@ export const EmailAddress = styled.p`
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.04em;
+
+  @media screen and (max-width: 490px) {
+    text-align: center;
+  }
 `
 
 export const ThirdRow = styled.div`
@@ -130,8 +142,7 @@ export const Address = styled.p`
   letter-spacing: 0.04em;
   line-height: 30px;
 
-  @media screen and (max-width: 420px) {
-    width: 100%;
+  @media screen and (max-width: 490px) {
     text-align: center;
   }
 `
