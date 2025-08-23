@@ -73,7 +73,6 @@ export const TextWrapper = styled.div`
 `
 
 export const BorderWrapper = styled.div`
-  border-left: 1px solid rgb(180, 180, 180);
   padding-left: 20px;
 `
 

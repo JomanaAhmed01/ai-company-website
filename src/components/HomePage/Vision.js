@@ -44,21 +44,24 @@ export const Wrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  border-left: 1px solid rgb(180, 180, 180);
   padding-left: 50px;
   margin-left: 30px;
   height: 420px;
-  /* border: 3px solid red; */
-  padding-left: 40px;
 
   @media screen and (max-width: 1024px) {
     margin-top: 50px;
-    width: 100%;
-    border-left: none;
+    height: 350px;
+    margin-left: 0px;
+    padding-left: 50px;
   }
 
   @media screen and (max-width: 660px) {
-    margin-left: 30px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: auto;
   }
 `
 
@@ -114,8 +117,17 @@ export const Image = styled.img`
 
   @media screen and (max-width: 1024px) {
     width: 100%;
-    margin-top: -160px;
+    margin-top: -50px;
   }
+
+  @media screen and (max-width: 670px) {
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: 670px) {
+    margin-top: 0px;
+  }
+  
 `
 
 export default Vision

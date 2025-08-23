@@ -126,13 +126,11 @@ export const Number = styled.p`
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.08em;
-  border-bottom: 3px solid #000000;
-  width: 25px;
-  padding-bottom: 10px;
+  width: fit-content;
+  margin-bottom: 0;
 
   @media screen and (max-width: 590px) {
     font-size: 27px;
-    padding-bottom: 20px;
   }
 `
 
@@ -143,7 +141,7 @@ export const Item = styled.p`
   letter-spacing: 0.08em;
   border-top: 1px solid #8c8c8c;
   width: 200px;
-  margin-top: -40px;
+  margin-top: 10px;
   padding-top: 20px;
 
   @media screen and (max-width: 590px) {

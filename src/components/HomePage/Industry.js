@@ -73,7 +73,6 @@ export const SecondWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  border-left: 1px solid #8c8c8c;
   padding-left: 30px;
   margin-left: 100px;
   height: 450px;

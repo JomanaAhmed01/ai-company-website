@@ -28,7 +28,6 @@ export const Wrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  border-left: 1px solid rgb(180, 180, 180);
   padding-left: 50px;
   margin-left: 50px;
 `
