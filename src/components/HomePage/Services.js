@@ -47,9 +47,6 @@ export const Header = styled.p`
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 320px;
-  border-left: 3px solid #000000;
-  margin-left: -50px;
-  padding-left: 50px;
 
   @media screen and (max-width: 660px) {
     margin-left: 0px;

@@ -109,10 +109,7 @@ export const Header = styled.p`
   letter-spacing: 0.08em;
   line-height: 40px;
   width: 120px;
-  border-left: 3px solid #ffffff;
-  margin-left: -30px;
   margin-bottom: 40px;
-  padding-left: 30px;
 
   @media screen and (max-width: 540px) {
     font-size: 18px;

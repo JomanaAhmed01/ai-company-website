@@ -91,9 +91,6 @@ export const Header = styled.p`
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 280px;
-  border-left: 3px solid #ffffff;
-  margin-left: -22px;
-  padding-left: 18px;
   margin-bottom: 80px;
 
   @media screen and (max-width: 640px) {
