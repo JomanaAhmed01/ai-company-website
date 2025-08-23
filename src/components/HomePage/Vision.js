@@ -29,22 +29,17 @@ function Vision() {
 export const Wrapper = styled.div`
   background-color: #000000;
   border: 1px solid transparent;
-  height: 850px;
+  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* border: 3px solid red; */
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    height: 1250px;
-  }
-
-  @media screen and (max-width: 600px) {
-    height: 1000px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 900px;
+    align-items: left;
+    /* height: 1250px; */
+    padding-right: 20px;
   }
 `
 
@@ -53,23 +48,17 @@ export const TextWrapper = styled.div`
   padding-left: 50px;
   margin-left: 30px;
   height: 420px;
+  /* border: 3px solid red; */
+  padding-left: 40px;
 
   @media screen and (max-width: 1024px) {
     margin-top: 50px;
-    height: 350px;
-    margin-left: 0px;
-    padding-left: 30px;
+    width: 100%;
+    border-left: none;
   }
 
   @media screen and (max-width: 660px) {
-    margin-left: 0px;
-    width: 90%;
     margin-left: 30px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: auto;
-    /* margin-left: 20px; */
   }
 `
 
@@ -87,17 +76,10 @@ export const Header = styled.p`
   line-height: 1.8em;
   letter-spacing: 0.08em;
   width: 280px;
-  /* border-left: 3px solid #ffffff; */
-  /* margin-left: -50px; */
-  /* padding-left: 50px; */
-
-  @media screen and (max-width: 660px) {
-    margin-left: 0px;
-    width: 90%;
-  }
 
   @media screen and (max-width: 1024px) {
     font-size: 20px;
+    width: 90%;
   }
 
   @media screen and (max-width: 480px) {
@@ -116,6 +98,7 @@ export const Text = styled.p`
 
   @media screen and (max-width: 1024px) {
     font-size: 14px;
+    width: 50%;
   }
 
   @media screen and (max-width: 480px) {
@@ -131,6 +114,7 @@ export const Image = styled.img`
 
   @media screen and (max-width: 1024px) {
     width: 100%;
+    margin-top: -160px;
   }
 `
 
