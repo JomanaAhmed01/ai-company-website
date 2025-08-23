@@ -37,10 +37,16 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 120px;
+  margin-bottom: 60px;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column-reverse;
+    margin-top: 0px;
+    height: 1100px;
+  }
+
+  @media screen and (max-width: 520px) {
+    height: 950px;
   }
 `
 
