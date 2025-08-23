@@ -90,7 +90,7 @@ export const Link = styled.p`
   cursor: pointer;
 
   :hover {
-    color: #c45308;
+    color: #ffffff;
   }
 
   @media screen and (max-width: 768px) {
