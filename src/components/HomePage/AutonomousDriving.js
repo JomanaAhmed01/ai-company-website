@@ -38,9 +38,7 @@ export const Wrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-top: 120px;
-  max-width: 2300px;
-  margin-left: auto;
-  margin-right: auto;
+
 
   @media screen and (max-width: 1024px) {
     flex-direction: column-reverse;
@@ -49,7 +47,11 @@ export const Wrapper = styled.div`
 
 export const TextWrapper = styled.div`
   margin-top: -100px;
-  margin-left: 150px;
+  margin-left: 20px;
+
+  @media screen and (max-width: 1220px) {
+    margin-left: 60px;
+  }
 
   @media screen and (max-width: 1024px) {
     margin-left: 0px;
